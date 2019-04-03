@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ezar.iml" filepath="$PROJECT_DIR$/ezar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/ezar_android.iml" filepath="$PROJECT_DIR$/android/ezar_android.iml" />
+    </modules>
+  </component>
+</project>
