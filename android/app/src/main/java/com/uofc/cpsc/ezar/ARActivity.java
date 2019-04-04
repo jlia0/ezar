@@ -1,7 +1,9 @@
 package com.uofc.cpsc.ezar;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -15,9 +17,13 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.util.Log;
+
+import java.lang.reflect.Method;
 import java.util.HashMap;
 import cn.easyar.Engine;
 import static android.content.ContentValues.TAG;
@@ -28,10 +34,18 @@ public class ARActivity extends Activity {
     private static String key = "Jc9TGAbxbihG7EJmGsPC23K0twJrW7LoOc7PAhMSJdodKNlaVwxpv5k9hCAFioaCewQvWw0Yj5GFCHVxH0uVRV4354f7CYeEiI2fqmeeHAH5TGOnOquxprIEURs4qzHNHAVh6Hyt0po2MPH757JJ7V8aj00aGU6jEATdht4SajYnigEP5apBLIHSzpFDYzCaHatF2KEc";
     private GLView glView;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
+
         super.onCreate(savedInstanceState);
+
+        if(hasNavBar(this)){
+            hideBottomUIMenu();
+        }
+
         setContentView(R.layout.activity_ar);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON, WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
@@ -52,6 +66,70 @@ public class ARActivity extends Activity {
             }
         });
     }
+
+    /**
+     * 隐藏虚拟按键，并且全屏
+     */
+    protected void hideBottomUIMenu(){
+        //隐藏虚拟按键，并且全屏
+        if (Build.VERSION.SDK_INT > 11 && Build.VERSION.SDK_INT < 19) { // lower api
+            View v = this.getWindow().getDecorView();
+            v.setSystemUiVisibility(View.GONE);
+        } else if (Build.VERSION.SDK_INT >= 19) {
+            //for new api versions.
+            View decorView = getWindow().getDecorView();
+            int uiOptions = View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                    | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                    | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                    | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION // hide nav bar
+                    | View.SYSTEM_UI_FLAG_FULLSCREEN // hide status bar
+                    | View.SYSTEM_UI_FLAG_IMMERSIVE;
+            decorView.setSystemUiVisibility(uiOptions);
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+        }
+    }
+
+    /**
+     * 检查是否存在虚拟按键栏
+     * @param context
+     * @return
+     */
+    public static boolean hasNavBar(Context context) {
+        Resources res = context.getResources();
+        int resourceId = res.getIdentifier("config_showNavigationBar", "bool", "android");
+        if (resourceId != 0) {
+            boolean hasNav = res.getBoolean(resourceId);
+            // check override flag
+            String sNavBarOverride = getNavBarOverride();
+            if ("1".equals(sNavBarOverride)) {
+                hasNav = false;
+            } else if ("0".equals(sNavBarOverride)) {
+                hasNav = true;
+            }
+            return hasNav;
+        } else { // fallback
+            return !ViewConfiguration.get(context).hasPermanentMenuKey();
+        }
+    }
+
+    /**
+     * 判断虚拟按键栏是否重写
+     * @return
+     */
+    private static String getNavBarOverride() {
+        String sNavBarOverride = null;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            try {
+                Class c = Class.forName("android.os.SystemProperties");
+                Method m = c.getDeclaredMethod("get", String.class);
+                m.setAccessible(true);
+                sNavBarOverride = (String) m.invoke(null, "qemu.hw.mainkeys");
+            } catch (Throwable e) {
+            }
+        }
+        return sNavBarOverride;
+    }
+
 
 
     private interface PermissionCallback
@@ -101,6 +179,9 @@ public class ARActivity extends Activity {
     @Override
     protected void onResume()
     {
+        if(hasNavBar(this)){
+            hideBottomUIMenu();
+        }
         Log.e(TAG, "-------- onResume: --------");
         super.onResume();
         if (glView != null) { glView.onResume(); }
@@ -109,6 +190,9 @@ public class ARActivity extends Activity {
     @Override
     protected void onPause()
     {
+        if(hasNavBar(this)){
+            hideBottomUIMenu();
+        }
         if (glView != null) { glView.onPause(); }
         super.onPause();
     }
@@ -141,6 +225,9 @@ public class ARActivity extends Activity {
 
     @Override
     public void onBackPressed() {
+        if(hasNavBar(this)){
+            hideBottomUIMenu();
+        }
         Log.e(TAG, "-------- onBackPressed: --------");
         super.onBackPressed();
     }

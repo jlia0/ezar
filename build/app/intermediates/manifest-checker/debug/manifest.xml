@@ -24,7 +24,8 @@
         android:testOnly="true" >
         <activity
             android:name="com.uofc.cpsc.ezar.ARActivity"
-            android:launchMode="singleInstance" >
+            android:launchMode="singleInstance"
+            android:theme="@style/AppTheme.FullScreen" >
         </activity>
         <activity
             android:name="com.uofc.cpsc.ezar.MainActivity"

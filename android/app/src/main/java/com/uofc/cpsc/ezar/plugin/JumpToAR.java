@@ -40,20 +40,20 @@ public class JumpToAR implements MethodChannel.MethodCallHandler {
 
             //返回给flutter的参数
             result.success("success");
-        }
-        //接收来自flutter的指令twoAct
-        else if (call.method.equals("twoAct")) {
-
-            //解析参数
-            String text = call.argument("flutter");
-
-            //带参数跳转到指定Activity
-            Intent intent = new Intent(activity, ARActivity.class);
-            intent.putExtra(ARActivity.VALUE, text);
-            activity.startActivity(intent);
-
-            //返回给flutter的参数
-            result.success("success");
+//        }
+//        //接收来自flutter的指令twoAct
+//        else if (call.method.equals("twoAct")) {
+//
+//            //解析参数
+//            String text = call.argument("flutter");
+//
+//            //带参数跳转到指定Activity
+//            Intent intent = new Intent(activity, ARActivity.class);
+//            intent.putExtra(ARActivity.VALUE, text);
+//            activity.startActivity(intent);
+//
+//            //返回给flutter的参数
+//            result.success("success");
         } else {
             result.notImplemented();
         }

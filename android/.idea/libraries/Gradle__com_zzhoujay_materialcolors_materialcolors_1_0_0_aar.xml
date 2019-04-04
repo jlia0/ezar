@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.zzhoujay.materialcolors:materialcolors:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/materialcolors-1.0.0.aar/bce0eac4ede4ace039d965ba22f49623/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/materialcolors-1.0.0.aar/bce0eac4ede4ace039d965ba22f49623/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zzhoujay.materialcolors/materialcolors/1.0.0/707ccd9d3ed7819061abeaa611cb71bd13b49d0b/materialcolors-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

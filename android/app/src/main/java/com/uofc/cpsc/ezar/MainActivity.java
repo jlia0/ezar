@@ -1,6 +1,9 @@
 package com.uofc.cpsc.ezar;
 
+import android.os.Build;
 import android.os.Bundle;
+import android.view.View;
+import android.view.WindowManager;
 
 import com.uofc.cpsc.ezar.plugin.JumpToAR;
 
@@ -25,4 +28,5 @@ public class MainActivity extends FlutterActivity {
 
 
     }
+
 }
