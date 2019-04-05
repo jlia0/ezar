@@ -259,10 +259,14 @@ public class HelloAR
                                 video = new ARVideo();
                                 video.openTransparentVideoFile("transparentvideo.mp4", video_renderers.get(1).texId());
                                 current_video_renderer = video_renderers.get(1);
-                            } else if (target_name.equals("idback") && video_renderers.get(2).texId() != 0) {
+                            } else if (target_name.equals("forest") && video_renderers.get(2).texId() != 0) {
                                 video = new ARVideo();
-                                video.openStreamingVideo("https://sightpvideo-cdn.sightp.com/sdkvideo/EasyARSDKShow201520.mp4", video_renderers.get(2).texId());
+                                video.openVideoFile("forest.mp4", video_renderers.get(2).texId());
                                 current_video_renderer = video_renderers.get(2);
+                            } else if (target_name.equals("jungle") && video_renderers.get(3).texId() != 0) {
+                                video = new ARVideo();
+                                video.openVideoFile("jungle.mp4", video_renderers.get(3).texId());
+                                current_video_renderer = video_renderers.get(3);
                             }
                         }
                         if (video != null) {

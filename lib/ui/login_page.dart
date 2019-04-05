@@ -3,6 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:ezar/style/theme.dart' as Theme;
 import 'package:ezar/utils/bubble_indication_painter.dart';
+import 'package:ezar/ui/profile_page.dart';
+import 'package:ezar/ui/main_page_navi.dart';
 
 class LoginPage extends StatefulWidget {
   LoginPage({Key key}) : super(key: key);
@@ -343,7 +345,8 @@ class _LoginPageState extends State<LoginPage>
                 ),
                 onPressed: () {
                 // Login action
-                demoPlugin.invokeMethod('interaction');
+                Navigator.push(context, new MaterialPageRoute(builder: (context)=>new MainPage()));
+                //demoPlugin.invokeMethod('interaction');
                 //showInSnackBar("Login button pressed")),
                 },
 

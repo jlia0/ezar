@@ -29,6 +29,9 @@ dev_dependencies:
     sdk: flutter
 
   font_awesome_flutter: ^8.0.1
+  flutter_swiper: ^1.1.6
+
+
 
 
 # For information on the generic Dart part of this file, see the
@@ -45,6 +48,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/img/login_logo.png
+    - assets/img/profile.jpeg
 
     # An image asset can refer to one or more resolution-specific "variants", see
     # https://flutter.io/assets-and-images/#resolution-aware.
