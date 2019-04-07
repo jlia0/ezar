@@ -1,0 +1,113 @@
+\documentclass[20pt,margin=1in,innermargin=-4.5in,blockverticalspace=-0.25in]{tikzposter}
+\geometry{paperwidth=42in,paperheight=30in}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{enumitem}
+\usepackage[backend=biber,style=numeric]{biblatex}
+\usepackage{emory-theme}
+\usepackage[final]{pdfpages}
+
+\usepackage{mwe} % for placeholder images
+
+\addbibresource{refs.bib}
+
+% set theme parameters
+\tikzposterlatexaffectionproofoff
+\usetheme{EmoryTheme}
+\usecolorstyle{EmoryStyle}
+
+\title{EZ-AR: An Immersive AR Tool For Advertisements}
+\author{Jian Liao, Igor Pieters, Monty Bechir, Nathan Chua and Rakheem Dewji}
+\institute{Department of Computer Science, University of Calgary\\
+            CPSC~481~Human-Computer~Interaction}
+\titlegraphic{\includegraphics[width=0.20\textwidth]{logo.png}}
+
+\begin{document}
+\maketitle
+\centering
+\begin{columns}
+    \column{0.32}
+    \block{Our Objectives}{
+         EZ-AR is an open-end mobile app which utilizes augmented reality and a user-friendly interface in hopes of creating a comforting experience for users to discover new products and businesses through interactive AR advertisements. EZ-AR is also an outlet for business owners to submit their own AR advertisements, so their products can be also experienced in a fresh and futuristic way that sticks with users.\\\emph{Keywords: Flutter, APP, AR, Node.js, PostgreSQL, Firebase \& Cloud Storage}
+    }
+    
+    \block{Solution Stack}{
+         We present our solution stack in the following figure. Our main goals of this project is providing an SaaS (Software as a Service) service to the business owner as well as end users. In this project, we try to use advanced techniques to build the cross-platform mobile application using Flutter\cite{cite:1}~released by Google in 2018. We also use a full-stack framework in our web application including React as front-end, Node.js as back-end and PostgreSQL as our database. The whole web application is deployed to Heroku.
+         
+         \begin{tikzfigure}[Solution Stack]
+            \includegraphics[width=0.9\linewidth]{solution_stack.png}
+        \end{tikzfigure}
+    }
+    
+    \block{Database Class Diagram}{
+         \begin{tikzfigure}[Database Class Diagram]
+            \includegraphics[width=0.85\linewidth]{Class.png}
+        \end{tikzfigure}
+    }
+
+
+    \column{0.36}
+    \block{EasyAR Engine}{
+        The Augmented Reality part is implemented with the SDK from EasyAR\texttrademark \cite{cite:2}. We would require the identification pictures from the business owners and upload them to our cloud server as well as the associated AR resources such as videos, pictures and 3D models.
+        
+        \begin{tikzfigure}[Block Diagram of EasyAR]
+            \includegraphics[width=0.9\linewidth]{EasyAR.jpg}
+        \end{tikzfigure}
+    }
+    
+        \block{Flutter: Cross-Platform Solution}{
+        We use Flutter to develop a cross-platform mobile applications. However, we encounter a technical problem which is AR requires directly hardware interaction. So we design a solution to communicate with native code through MethodChannel\cite{cite:3}.
+        
+        \begin{tikzfigure}[Flutter Framework]
+            \includegraphics[width=0.7\linewidth]{flutter.png}
+        \end{tikzfigure}
+        
+     
+    }
+
+    \column{0.32}
+
+    
+    \block{Sequence Diagrams}{
+       \begin{tikzfigure}[Users Scan Products]
+            \includegraphics[width=0.7\linewidth]{sequence1.png}
+        \end{tikzfigure}
+        
+        \begin{tikzfigure}[Users Create Advertisements]
+            \includegraphics[width=0.7\linewidth]{sequence2.png}
+        \end{tikzfigure}
+    }
+    
+    % \block{Design Methods}{
+    %   We decided to conduct two user research methods: Fly on the wall (Look) -> Interview (Ask). We chose Fly on the Wall because it allows us to monitor and make key observations on how a user may interact with a very raw, beta version of our application.
+        
+    %     \begin{tikzfigure}[Design Methods]
+    %         \includegraphics[width=0.55\linewidth]{methods.jpg}
+    %     \end{tikzfigure}
+    % }
+    \block{Firebase: Realtime Database}{
+        We use Firebase Realtime Database\cite{cite:4} to store and sync data in real time, and it can broadcast the database changes to all the live users through JSON data in milliseconds. This technology is based on WebSocket and TCP Keep-Alive Connection.
+        
+        \begin{tikzfigure}[Firebase Realtime Database]
+            \includegraphics[width=0.7\linewidth]{database.png}
+        \end{tikzfigure}
+
+    
+    
+    }
+
+    
+    \block{References}{
+        \vspace{-1em}
+        \begin{footnotesize}
+        \printbibliography[heading=none]
+        \end{footnotesize}
+    }
+\end{columns}
+\end{document}

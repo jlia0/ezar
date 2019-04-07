@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorPrimary_Blue</color>
+    <color name="colorPrimaryDark">@color/colorPrimary_Blue</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorClassic">#F44336</color>
+    <color name="colorClassicDark">#E53935</color>
+
+    <color name="colorBlack">#393A3F</color>
+    <color name="colorBlackDark">#303135</color>
+
+    <color name="colorBili">#FA729A</color>
+    <color name="colorBiliDark">#fc4d80</color>
+
+    <color name="colorTextError">#def36c60</color>
+
+    <color name="colorTextPrimaryWhite">#deffffff</color>
+    <color name="colorTextSecondlyWhite">#8affffff</color>
+    <color name="colorShadow">#50000000</color>
+
+    <color name="colorChoice">#325677fc</color>
+
+    <!--day-->
+    <color name="colorTitle">@color/material_white</color>
+    <color name="colorSnackbar">#353235</color>
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="colorBackgroundDark">#EBEBEB</color>
+    <color name="colorCard">#FFFFFF</color>
+    <color name="colorCardPress">#F0F0F0</color>
+    <color name="colorTextFull">#ff000000</color>
+    <color name="colorTextPrimary">#de000000</color>
+    <color name="colorTextSecondly">#8a000000</color>
+    <color name="colorTextDisable">#50000000</color>
+    <color name="colorRecyclerView">#ffffff</color>
+    <color name="colorLight">@color/material_indigo_300</color>
+    <color name="colorDecLine">#31000000</color>
+    <color name="colorPrice">@color/material_orange_900</color>
+    <color name="colorTimeGrid">#402b2b2b</color>
+
+    <color name="colorPrimary_Blue">@color/material_blue_500</color>
+
+    <color name="colorPrimary_LightBlue">@color/material_lightBlue_500</color>
+
+    <color name="colorPrimary_Red">@color/material_red_500</color>
+
+    <color name="colorPrimary_Pink">@color/material_pink_500</color>
+
+    <color name="colorPrimary_Purple">@color/material_purple_500</color>
+
+    <color name="colorPrimary_DeepPurple">@color/material_deepPurple_500</color>
+
+    <color name="colorPrimary_Indigo">@color/material_indigo_500</color>
+
+    <color name="colorPrimary_Cyan">@color/material_cyan_700</color>
+
+    <color name="colorPrimary_Teal">@color/material_teal_500</color>
+
+    <color name="colorPrimary_Green">@color/material_green_500</color>
+
+    <color name="colorPrimary_LightGreen">@color/material_lightGreen_500</color>
+
+    <color name="colorPrimary_Lime">@color/material_Lime_700</color>
+
+    <color name="colorPrimary_Classic">@color/colorClassic</color>
+
+    <color name="colorPrimary_Bili">@color/colorBili</color>
+
+    <color name="colorPrimary_Orange">@color/material_orange_500</color>
+
+    <color name="colorPrimary_DeepOrange">@color/material_deepOrange_500</color>
+
+    <color name="colorPrimary_Brown">@color/material_brown_500</color>
+
+    <color name="colorPrimary_Grey">@color/material_grey_500</color>
+
+    <color name="colorPrimary_BlueGrey">@color/material_blueGrey_500</color>
+
+    <color name="colorPrimary_Black">@color/colorBlack</color>
+
+    <color name="colorPrimaryLight_Blue">@color/material_blue_500</color>
+
+    <color name="colorPrimaryLight_LightBlue">@color/material_lightBlue_500</color>
+
+    <color name="colorPrimaryLight_Red">@color/material_red_500</color>
+
+    <color name="colorPrimaryLight_Pink">@color/material_pink_500</color>
+
+    <color name="colorPrimaryLight_Purple">@color/material_purple_500</color>
+
+    <color name="colorPrimaryLight_DeepPurple">@color/material_deepPurple_500</color>
+
+    <color name="colorPrimaryLight_Indigo">@color/material_indigo_500</color>
+
+    <color name="colorPrimaryLight_Cyan">@color/material_cyan_700</color>
+
+    <color name="colorPrimaryLight_Teal">@color/material_teal_500</color>
+
+    <color name="colorPrimaryLight_Green">@color/material_green_500</color>
+
+    <color name="colorPrimaryLight_LightGreen">@color/material_lightGreen_500</color>
+
+    <color name="colorPrimaryLight_Lime">@color/material_Lime_700</color>
+
+    <color name="colorPrimaryLight_Classic">@color/colorClassic</color>
+
+    <color name="colorPrimaryLight_Bili">@color/colorBili</color>
+
+    <color name="colorPrimaryLight_Orange">@color/material_orange_500</color>
+
+    <color name="colorPrimaryLight_DeepOrange">@color/material_deepOrange_500</color>
+
+    <color name="colorPrimaryLight_Brown">@color/material_brown_500</color>
+
+    <color name="colorPrimaryLight_Grey">@color/material_grey_500</color>
+
+    <color name="colorPrimaryLight_BlueGrey">@color/material_blueGrey_500</color>
+
+    <color name="colorPrimaryLight_Black">@color/colorBlack</color>
+
+
+</resources>

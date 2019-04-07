@@ -1,0 +1,33 @@
+{
+  "images": [
+    {
+      "image": "argame00.jpg",
+      "name": "argame"
+    },
+    {
+      "image": "forests.jpg",
+      "name": "forests"
+    },
+    {
+      "image": "sea.jpg",
+      "name": "sea"
+    },
+    {
+      "image": "jj_bottle_1.jpg",
+      "name": "jj_bottle_1"
+    },
+    {
+      "image": "jungle.jpg",
+      "name": "jungle"
+    },
+    {
+      "image": "idback.jpg",
+      "name": "idback",
+      "size": [
+        8.56,
+        5.4
+      ],
+      "uid": "uid-string"
+    }
+  ]
+}

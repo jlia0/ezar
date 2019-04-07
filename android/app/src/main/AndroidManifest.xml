@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uofc.cpsc.ezar">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name="io.flutter.app.FlutterApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ezar">
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAHB_z228X23Y5hfj-ZKaTHxHpzPxPIVUA" />
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAHB_z228X23Y5hfj-ZKaTHxHpzPxPIVUA"/>
+
+
+        <activity
+            android:name=".ARActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppTheme.FullScreen"></activity>
+
+        <activity
+            android:name="com.apptreesoftware.mapview.MapActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:theme="@style/LaunchTheme"
+            android:windowSoftInputMode="adjustResize">
+            <!--
+                 This keeps the window background of the activity showing
+                 until Flutter renders its first frame. It can be removed if
+                 there is no splash screen (such as the default splash screen
+                 defined in @style/LaunchTheme).
+            -->
+            <meta-data
+                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+                android:value="true" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

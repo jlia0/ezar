@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a718f63a-749f-4b36-b4cb-6e7dadd50e40" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.packages" beforeDir="false" afterPath="$PROJECT_DIR$/../.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/targets.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/targets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uofc/cpsc/ezar/HelloAR.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uofc/cpsc/ezar/HelloAR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app.dill.track.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app.dill.track.dill.incremental.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/asynclayoutinflater/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/asynclayoutinflater/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/compat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/compat/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/coordinatorlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/coordinatorlayout/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/coreui/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/coreui/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/coreutils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/coreutils/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/customview/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/customview/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/drawerlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/drawerlayout/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/fragment/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/fragment/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/graphics/drawable/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/graphics/drawable/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/loader/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/loader/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/slidingpanelayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/slidingpanelayout/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/swiperefreshlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/swiperefreshlayout/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/v7/appcompat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/v7/appcompat/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/v7/viewpager/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/android/support/v7/viewpager/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/com/uofc/cpsc/ezar/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/generated/not_namespaced_r_class_sources/release/processReleaseResources/r/com/uofc/cpsc/ezar/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/blame/res/release/multi-v2/release.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/blame/res/release/multi-v2/release.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/blame/res/release/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/blame/res/release/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/build-info/debug/build-info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/build-info/debug/build-info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/bundle_manifest/release/processReleaseManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/bundle_manifest/release/processReleaseManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/snapshot_blob.bin.d" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/snapshot_blob.bin.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/snapshot_blob.bin.d.fingerprint" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/debug/snapshot_blob.bin.d.fingerprint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/release/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/release/flutter_assets/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/release/isolate_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/release/isolate_snapshot_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/release/isolate_snapshot_instr" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/release/isolate_snapshot_instr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/flutter/release/kernel_compile.d" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/flutter/release/kernel_compile.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental-verifier/debug/com/uofc/cpsc/ezar/ARActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental-verifier/debug/com/uofc/cpsc/ezar/ARActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental-verifier/debug/com/uofc/cpsc/ezar/ARActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental-verifier/debug/com/uofc/cpsc/ezar/ARActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental-verifier/debug/com/uofc/cpsc/ezar/HelloAR.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental-verifier/debug/com/uofc/cpsc/ezar/HelloAR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental-verifier/debug/com/uofc/cpsc/ezar/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental-verifier/debug/com/uofc/cpsc/ezar/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/2tGtxMEqHxKIahE9Bsx747JJRkw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/2tGtxMEqHxKIahE9Bsx747JJRkw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeReleaseResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/mergeReleaseResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/ORn5hEUpPLdSwdSMKjvCId3tznY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/jgM6NYaCLHzLflRYhdIhAKNDfdo=" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/jgM6NYaCLHzLflRYhdIhAKNDfdo=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageRelease/tmp/release/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageRelease/tmp/release/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageRelease/tmp/release/zip-cache/UxKDsvBdmBc58Cl1CpxVTph2sAI=" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/packageRelease/tmp/release/zip-cache/UxKDsvBdmBc58Cl1CpxVTph2sAI=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/release-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/release-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/incremental/release-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/incremental/release-mergeJniLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/instant-run-apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/instant-run-apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/instant_app_manifest/debug/processDebugManifest/instant-app-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/instant_app_manifest/debug/processDebugManifest/instant-app-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/instant_app_manifest/release/processReleaseManifest/instant-app-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/instant_app_manifest/release/processReleaseManifest/instant-app-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/uofc/cpsc/ezar/HelloAR.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/uofc/cpsc/ezar/HelloAR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/asynclayoutinflater/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/asynclayoutinflater/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/asynclayoutinflater/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/asynclayoutinflater/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/compat/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/compat/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/compat/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/compat/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coordinatorlayout/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coordinatorlayout/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coordinatorlayout/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coordinatorlayout/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreui/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreui/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreui/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreui/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreutils/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreutils/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreutils/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/coreutils/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/customview/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/customview/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/customview/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/customview/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/drawerlayout/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/drawerlayout/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/drawerlayout/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/drawerlayout/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/fragment/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/fragment/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/fragment/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/fragment/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/graphics/drawable/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/graphics/drawable/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/graphics/drawable/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/graphics/drawable/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/loader/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/loader/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/loader/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/loader/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/slidingpanelayout/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/slidingpanelayout/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/slidingpanelayout/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/slidingpanelayout/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/swiperefreshlayout/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/swiperefreshlayout/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/swiperefreshlayout/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/swiperefreshlayout/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/appcompat/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/appcompat/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/appcompat/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/appcompat/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/viewpager/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/viewpager/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/viewpager/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/android/support/v7/viewpager/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/ARActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/ARActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/ARActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/ARActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$dimen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$dimen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$mipmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$mipmap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/uofc/cpsc/ezar/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/targets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/targets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/release/mergeReleaseAssets/out/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/release/mergeReleaseAssets/out/flutter_assets/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/release/mergeReleaseAssets/out/isolate_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/release/mergeReleaseAssets/out/isolate_snapshot_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/release/mergeReleaseAssets/out/isolate_snapshot_instr" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/release/mergeReleaseAssets/out/isolate_snapshot_instr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/release/mergeReleaseAssets/out/targets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_assets/release/mergeReleaseAssets/out/targets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/merged_manifests/release/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/merged_manifests/release/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/processed_res/release/processReleaseResources/out/resources-release.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/processed_res/release/processReleaseResources/out/resources-release.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/res/merged/release/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/res/merged/release/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/split-apk/debug/slices/slice_9.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/split-apk/debug/slices/slice_9.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/symbols/release/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/symbols/release/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/10.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/10.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/11.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/12.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/13.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/13.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/14.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/14.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/15.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/15.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/16.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/16.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/17.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/17.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/18.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/18.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/19.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/20.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/20.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/21.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/21.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/22.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/22.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/23.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/23.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/24.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/24.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/25.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/25.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/26.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/26.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/27.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/27.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/28.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/28.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/29.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/29.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/30.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/30.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/31.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/31.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/32.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/32.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/33.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/33.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/34.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/34.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/35.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/35.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/36.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/36.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/37.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/37.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/38.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/38.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/39.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/39.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/40.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/40.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/41.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/41.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/42.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/42.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/43.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/43.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/44.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/44.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/arch/core/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/arch/lifecycle/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/arch/lifecycle/livedata/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/arch/lifecycle/livedata/core/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/arch/lifecycle/viewmodel/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/asynclayoutinflater/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/asynclayoutinflater/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/asynclayoutinflater/R$dimen.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/asynclayoutinflater/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/asynclayoutinflater/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/asynclayoutinflater/R$integer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/asynclayoutinflater/R$layout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/asynclayoutinflater/R$string.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/asynclayoutinflater/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/asynclayoutinflater/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/asynclayoutinflater/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/compat/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/compat/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/compat/R$dimen.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/compat/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/compat/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/compat/R$integer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/compat/R$layout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/compat/R$string.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/compat/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/compat/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/compat/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/constraint/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/constraint/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/constraint/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/constraint/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coordinatorlayout/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coordinatorlayout/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coordinatorlayout/R$dimen.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coordinatorlayout/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coordinatorlayout/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coordinatorlayout/R$integer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coordinatorlayout/R$layout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coordinatorlayout/R$string.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coordinatorlayout/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coordinatorlayout/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coordinatorlayout/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreui/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreui/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreui/R$dimen.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreui/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreui/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreui/R$integer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreui/R$layout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreui/R$string.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreui/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreui/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreui/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreutils/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreutils/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreutils/R$dimen.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreutils/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreutils/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreutils/R$integer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreutils/R$layout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreutils/R$string.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreutils/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreutils/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/coreutils/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/cursoradapter/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/customview/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/customview/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/customview/R$dimen.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/customview/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/customview/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/customview/R$integer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/customview/R$layout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/customview/R$string.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/customview/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/customview/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/customview/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/documentfile/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/drawerlayout/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/drawerlayout/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/drawerlayout/R$dimen.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/drawerlayout/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/drawerlayout/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/drawerlayout/R$integer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/drawerlayout/R$layout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/drawerlayout/R$string.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/drawerlayout/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/drawerlayout/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/drawerlayout/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/fragment/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/fragment/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/fragment/R$dimen.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/fragment/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/fragment/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/fragment/R$integer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/fragment/R$layout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/fragment/R$string.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/fragment/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/fragment/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/fragment/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/graphics/drawable/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/graphics/drawable/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/graphics/drawable/R$dimen.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/graphics/drawable/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/graphics/drawable/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/graphics/drawable/R$integer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/graphics/drawable/R$layout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/graphics/drawable/R$string.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/graphics/drawable/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/graphics/drawable/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/graphics/drawable/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/interpolator/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/loader/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/loader/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/loader/R$dimen.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/loader/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/loader/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/loader/R$integer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/loader/R$layout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/loader/R$string.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/loader/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/loader/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/loader/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/localbroadcastmanager/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/print/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/slidingpanelayout/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/slidingpanelayout/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/slidingpanelayout/R$dimen.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/slidingpanelayout/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/slidingpanelayout/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/slidingpanelayout/R$integer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/slidingpanelayout/R$layout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/slidingpanelayout/R$string.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/slidingpanelayout/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/slidingpanelayout/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/slidingpanelayout/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/swiperefreshlayout/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/swiperefreshlayout/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/swiperefreshlayout/R$dimen.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/swiperefreshlayout/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/swiperefreshlayout/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/swiperefreshlayout/R$integer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/swiperefreshlayout/R$layout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/swiperefreshlayout/R$string.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/swiperefreshlayout/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/swiperefreshlayout/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/swiperefreshlayout/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/appcompat/R$anim.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/appcompat/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/appcompat/R$bool.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/appcompat/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/appcompat/R$dimen.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/appcompat/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/appcompat/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/appcompat/R$integer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/appcompat/R$layout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/appcompat/R$string.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/appcompat/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/appcompat/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/appcompat/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/viewpager/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/viewpager/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/viewpager/R$dimen.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/viewpager/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/viewpager/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/viewpager/R$integer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/viewpager/R$layout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/viewpager/R$string.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/viewpager/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/viewpager/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/android/support/v7/viewpager/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/androidx/versionedparcelable/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/ARActivity$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/ARActivity$PermissionCallback.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/ARActivity.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/ARVideo$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/ARVideo$2.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/ARVideo$3.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/ARVideo.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/BuildConfig.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/GLView$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/GLView$ConfigChooser.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/GLView$ContextFactory.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/GLView.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/HelloAR$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/HelloAR$2.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/HelloAR.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/MainActivity.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/R$anim.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/R$bool.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/R$dimen.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/R$integer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/R$layout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/R$mipmap.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/R$string.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/VideoRenderer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/uofc/cpsc/ezar/plugin/JumpToAR.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/zzhoujay/materialcolors/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/com/zzhoujay/materialcolors/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/45/io/flutter/plugins/GeneratedPluginRegistrant.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/asynclayoutinflater/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/asynclayoutinflater/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/asynclayoutinflater/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/asynclayoutinflater/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/compat/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/compat/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/compat/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/compat/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/coordinatorlayout/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/coordinatorlayout/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/coordinatorlayout/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/coordinatorlayout/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/coreui/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/coreui/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/coreui/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/coreui/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/coreutils/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/coreutils/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/coreutils/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/coreutils/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/customview/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/customview/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/customview/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/customview/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/drawerlayout/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/drawerlayout/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/drawerlayout/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/drawerlayout/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/fragment/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/fragment/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/fragment/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/fragment/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/graphics/drawable/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/graphics/drawable/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/graphics/drawable/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/graphics/drawable/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/loader/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/loader/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/loader/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/loader/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/slidingpanelayout/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/slidingpanelayout/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/slidingpanelayout/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/slidingpanelayout/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/swiperefreshlayout/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/swiperefreshlayout/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/swiperefreshlayout/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/swiperefreshlayout/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/v7/appcompat/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/v7/appcompat/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/v7/appcompat/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/v7/appcompat/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/v7/viewpager/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/v7/viewpager/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/v7/viewpager/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/android/support/v7/viewpager/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/ARActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/ARActivity$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/ARActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/ARActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/MainActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$dimen.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$dimen.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$integer.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$integer.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$mipmap.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$mipmap.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$string.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/136/com/uofc/cpsc/ezar/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexBuilder/release/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexMerger/debug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexMerger/debug/0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexMerger/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexMerger/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexMerger/release/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexMerger/release/0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexMerger/release/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/dexMerger/release/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/externalLibsDexMerger/release/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/externalLibsDexMerger/release/0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/instantRun/debug/0/com/uofc/cpsc/ezar/ARActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/instantRun/debug/0/com/uofc/cpsc/ezar/ARActivity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/instantRun/debug/0/com/uofc/cpsc/ezar/ARActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/instantRun/debug/0/com/uofc/cpsc/ezar/ARActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/instantRun/debug/0/com/uofc/cpsc/ezar/HelloAR.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/instantRun/debug/0/com/uofc/cpsc/ezar/HelloAR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/instantRun/debug/0/com/uofc/cpsc/ezar/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/instantRun/debug/0/com/uofc/cpsc/ezar/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/instantRun/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/instantRun/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/mergeJavaRes/debug/0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/mergeJavaRes/debug/0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/mergeJavaRes/release/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/mergeJavaRes/release/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/mergeJniLibs/debug/0/lib/arm64-v8a/libflutter.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/intermediates/transforms/mergeJniLibs/release/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/intermediates/transforms/mergeJniLibs/release/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/outputs/apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/outputs/apk/app.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/outputs/apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/outputs/apk/app.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/outputs/apk/release/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/outputs/apk/release/app-release.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/outputs/logs/manifest-merger-release-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/outputs/logs/manifest-merger-release-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/app/reports/lint-results-release-fatal.html" beforeDir="false" afterPath="$PROJECT_DIR$/../build/app/reports/lint-results-release-fatal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../build/flutter_assets/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../build/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/Runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/Runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/../build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/last_build_run.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build/last_build_run.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/snapshot_blob.bin.d" beforeDir="false" afterPath="$PROJECT_DIR$/../build/snapshot_blob.bin.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/ui/login_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/ui/login_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2106207435">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+          <entry key="jpg" value="3" />
+          <entry key="json" value="1" />
+          <entry key="mp4" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="3" />
+          <entry key="JAVA" value="2" />
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="29" />
+          <entry key="json" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="29" />
+          <entry key="JSON" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/targets.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/uofc/cpsc/ezar/ARVideo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/uofc/cpsc/ezar/HelloAR.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="259" column="37" selection-start-line="259" selection-start-column="37" selection-end-line="259" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/forests.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/jungle.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/jungle.mp4">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/forests.mp4">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/assets/targets.json" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/uofc/cpsc/ezar/HelloAR.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="ezar" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="assets" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="device.picker.selection" value="a437568d" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a718f63a-749f-4b36-b4cb-6e7dadd50e40" name="Default Changelist" comment="" />
+      <created>1554415095313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554415095313</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32967034" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.3291536" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="9" visible="true" weight="0.3291536" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
+      <window_info anchor="right" id="Flutter Outline" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sea.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/sea.mp4" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/targets.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/uofc/cpsc/ezar/ARVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/jungle.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/jungle.mp4">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/forests.mp4">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/forests.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/uofc/cpsc/ezar/HelloAR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="259" column="37" selection-start-line="259" selection-start-column="37" selection-end-line="259" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
