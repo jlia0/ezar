@@ -4,6 +4,7 @@ import 'package:ezar/ui/settings_page.dart';
 import 'package:ezar/ui/wallet_page.dart';
 import 'package:ezar/ui/profile_page.dart';
 import 'package:ezar/utils/fab_bottom_app_bar.dart';
+import 'package:flutter/services.dart';
 
 class MainPage extends StatefulWidget {
   @override
@@ -25,6 +26,7 @@ class _MainPageState extends State<MainPage>
 
   @override
   Widget build(BuildContext context) {
+    const demoPlugin = const MethodChannel('demo.plugin');
     return Scaffold(
       body: PageView(
         controller: _controller,
@@ -97,7 +99,7 @@ class _MainPageState extends State<MainPage>
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          //_selectedTab(1);
+          demoPlugin.invokeMethod('interaction');
         },
         tooltip: 'Scanning AR',
         child: Icon(Icons.camera_alt),

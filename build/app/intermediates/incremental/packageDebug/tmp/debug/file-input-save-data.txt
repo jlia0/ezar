@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Apr 07 01:00:47 MDT 2019
+#Sun Apr 07 13:49:08 MDT 2019
 17.baseType=DIRECTORY
 4.path=namecard.jpg
 25.base=/Users/kelvinlew/Documents/FlutterProjects/ezar/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out

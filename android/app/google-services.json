@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "184498157692",
+    "firebase_url": "https://ez-ar-47896.firebaseio.com",
+    "project_id": "ez-ar-47896",
+    "storage_bucket": "ez-ar-47896.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184498157692:android:65c6d664c3146ce3",
+        "android_client_info": {
+          "package_name": "com.uofc.cpsc.ezar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbNJ7y6QcJuCbtDr4UWONNwtK0Q3sSfm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184498157692-t3l8eceg5qbmq88ogiq08gtq2q4jtruk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

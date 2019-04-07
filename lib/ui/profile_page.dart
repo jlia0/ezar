@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:ezar/style/theme.dart' as MTheme;
-import 'package:ezar/utils/fab_bottom_app_bar.dart';
-import 'package:ezar/ui/history_page.dart';
-import 'package:ezar/ui/settings_page.dart';
-import 'package:ezar/ui/wallet_page.dart';
+import 'package:ezar/utils/swiper.dart';
 
 class ProfilePage extends StatefulWidget {
   @override
@@ -15,32 +12,8 @@ class ProfilePage extends StatefulWidget {
 }
 
 class ProfilePageState extends State<ProfilePage>
-    with AutomaticKeepAliveClientMixin {
+    with AutomaticKeepAliveClientMixin, SingleTickerProviderStateMixin {
   final String _fullName = "Jian Liao";
-
-//  final String _status = "Software Developer";
-////  final String _bio =
-////      "\"Hi, I am a Freelance developer working for hourly basis. If you wants to contact me to build your product leave a message.\"";
-////  final String _followers = "173";
-////  final String _posts = "24";
-////  final String _scores = "450";
-////  TabController _tabController;
-
-//  int _currentIndex;
-//  List<Widget> _pages;
-
-//  @override
-//  void initState() {
-//    // TODO: implement initState
-//    _currentIndex = 0;
-//    _pages
-//      ..add(ProfilePage())
-//      ..add(WalletPage())
-//      ..add(HistoryPage())
-//      ..add(SettingsPage());
-//
-//    super.initState();
-//  }
 
   @override
   // TODO: implement wantKeepAlive
@@ -48,7 +21,7 @@ class ProfilePageState extends State<ProfilePage>
 
   Widget _buildCoverImage(Size screenSize) {
     return Container(
-      height: screenSize.height / 3.7,
+      height: screenSize.height * 0.26,
       decoration: new BoxDecoration(
         gradient: new LinearGradient(
             colors: [
@@ -63,11 +36,11 @@ class ProfilePageState extends State<ProfilePage>
     );
   }
 
-  Widget _buildProfileImage() {
+  Widget _buildProfileImage(Size screensize) {
     return Center(
       child: Container(
-        width: 140.0,
-        height: 140.0,
+        width: screensize.height*0.13,
+        height: screensize.height*0.13,
         decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage('assets/img/profile.jpeg'),
@@ -97,25 +70,23 @@ class ProfilePageState extends State<ProfilePage>
     );
   }
 
-//  Widget _buildTabBar() {
-//    return Container(
-//      color: Colors.blue,
-//      width: 200,
-//      height: 38.0,
-//      child: TabBar(
-//        //controller: _tabController,
-//        tabs: <Widget>[
-//          new Tab(
-//            icon: new Icon(Icons.directions_bike),
-//          ),
-//          new Tab(
-//            icon: new Icon(Icons.directions_boat),
-//          ),
-//        ],
-//        isScrollable: true,
-//      ),
-//    );
-//  }
+  Widget _buildTabBar() {
+    return Container(
+      child: new TabBar(
+        tabs: <Widget>[
+          new Tab(
+            text: "Discover",
+          ),
+          new Tab(
+            text: "Favourites",
+          ),
+        ],
+        labelColor: Colors.black,
+        indicatorColor: Colors.deepOrangeAccent,
+      ),
+    );
+  }
+
 //
 //  Widget _buildStatus(BuildContext context) {
 //    return Container(
@@ -276,73 +247,56 @@ class ProfilePageState extends State<ProfilePage>
 //    );
 //  }
 
-//  void _selectedTab(int index) {
-//    setState(() {
-//      _currentIndex = index;
-//    });
-//  }
-
   @override
   Widget build(BuildContext context) {
     Size screenSize = MediaQuery.of(context).size;
+    double aHeight;
+    aHeight=MediaQuery.of(context).padding.top;
+
+    if(aHeight==44){
+      aHeight=10;
+    }
+
+    if(aHeight==0 || aHeight==20){
+      aHeight=44;
+    }
+
 
     return new DefaultTabController(
       length: 2,
       child: new Scaffold(
-        body: Stack(
+        body: new Column(
           children: <Widget>[
-            _buildCoverImage(screenSize),
-            SafeArea(
-              child: SingleChildScrollView(
-                child: Column(
-                  children: <Widget>[
-                    SizedBox(height: screenSize.height / 200),
-                    _buildProfileImage(),
-                    SizedBox(height: 10.0),
-                    _buildFullName(),
-                    SizedBox(height: 15.0),
-                    new TabBar(
-                      tabs: <Widget>[
-                        new Tab(
-                          text: "Discover",
-                        ),
-                        new Tab(
-                          text: "Favourites",
-                        ),
+            new Stack(
+              children: <Widget>[
+                _buildCoverImage(screenSize),
+                SafeArea(
+                  child: SingleChildScrollView(
+                    child: Column(
+                      children: <Widget>[
+
+                        SizedBox(height: aHeight),
+                        _buildProfileImage(screenSize),
+                        SizedBox(height:15),
+                        _buildFullName(),
+                        //SizedBox(height: 15.0),
                       ],
-                      labelColor: Colors.black,
-                      indicatorColor: Colors.deepOrangeAccent,
                     ),
-                  ],
+                  ),
                 ),
+              ],
+            ),
+            _buildTabBar(),
+            new Expanded(
+              child: new TabBarView(
+                children: <Widget>[
+                  new PicSwiper(),
+                  new Center(child: new Text('Tab2')),
+                ],
               ),
             ),
           ],
         ),
-//        bottomNavigationBar: FABBottomAppBar(
-//          centerItemText: 'AR',
-//          color: Colors.grey,
-//          selectedColor: Colors.lightBlue,
-//          notchedShape: CircularNotchedRectangle(),
-//          onTabSelected: _selectedTab,
-//          items: [
-//            FABBottomAppBarItem(
-//                iconData: Icons.person_outline, text: 'Profile'),
-//            FABBottomAppBarItem(
-//                iconData: Icons.account_balance_wallet, text: 'Wallet'),
-//            FABBottomAppBarItem(iconData: Icons.history, text: 'History'),
-//            FABBottomAppBarItem(iconData: Icons.settings, text: 'Settings'),
-//          ],
-//        ),
-//        floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-//        floatingActionButton: FloatingActionButton(
-//          onPressed: () {
-//            _selectedTab(1);
-//          },
-//          tooltip: 'Scanning AR',
-//          child: Icon(Icons.camera_alt),
-//          elevation: 2.0,
-//        ),
       ),
     );
   }

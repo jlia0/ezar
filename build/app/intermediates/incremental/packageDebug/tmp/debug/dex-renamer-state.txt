@@ -1,4 +1,4 @@
-#Sun Apr 07 01:00:46 MDT 2019
+#Sun Apr 07 13:49:07 MDT 2019
 base.0=/Users/kelvinlew/Documents/FlutterProjects/ezar/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

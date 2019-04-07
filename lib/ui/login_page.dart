@@ -216,7 +216,6 @@ class _LoginPageState extends State<LoginPage>
   }
 
   Widget _buildSignIn(BuildContext context) {
-    const demoPlugin = const MethodChannel('demo.plugin');
 
     return Container(
       padding: EdgeInsets.only(top: 23.0),
@@ -346,7 +345,6 @@ class _LoginPageState extends State<LoginPage>
                 onPressed: () {
                 // Login action
                 Navigator.push(context, new MaterialPageRoute(builder: (context)=>new MainPage()));
-                //demoPlugin.invokeMethod('interaction');
                 //showInSnackBar("Login button pressed")),
                 },
 

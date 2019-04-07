@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://ez-ar-47896.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">184498157692</string>
+    <string name="google_api_key" translatable="false">AIzaSyCbNJ7y6QcJuCbtDr4UWONNwtK0Q3sSfm8</string>
+    <string name="google_app_id" translatable="false">1:184498157692:android:65c6d664c3146ce3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCbNJ7y6QcJuCbtDr4UWONNwtK0Q3sSfm8</string>
+    <string name="google_storage_bucket" translatable="false">ez-ar-47896.appspot.com</string>
+    <string name="project_id" translatable="false">ez-ar-47896</string>
+</resources>
