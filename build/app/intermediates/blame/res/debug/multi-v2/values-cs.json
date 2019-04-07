@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/kelvinlew/Documents/FlutterProjects/ezar/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml",
+            "outputFile": "/Users/kelvinlew/ezar/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml",
             "map": [
                 {
                     "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1992a0ac3b0fb6397b72fba99f3c82ab/res/values-cs/values.xml",
