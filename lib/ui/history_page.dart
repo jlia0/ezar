@@ -19,9 +19,21 @@ class HistoryPageState extends State<HistoryPage>
     // TODO: implement build
     return Scaffold(
       appBar: new AppBar(
-        title: new Text("History Page"),
+        title: new Text("History"),
+        textTheme: TextTheme(title: TextStyle(color:Colors.blueGrey,fontSize: 18)),
+        brightness: Brightness.light,
+        backgroundColor: Colors.white,
+        centerTitle: true,
+        elevation: 0,
+      ),
+      body: TextField(
+
       ),
     );
+
+
   }
 
+
 }
+

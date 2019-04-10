@@ -23,7 +23,12 @@ class WalletPageState extends State<WalletPage>
       length: 2,
       child: Scaffold(
         appBar: new AppBar(
-          title: new Text("Wallet Page"),
+          title: new Text("Cards & Offers"),
+          textTheme: TextTheme(title: TextStyle(color:Colors.blueGrey,fontSize: 18)),
+          elevation: 0,
+          brightness: Brightness.light,
+          backgroundColor: Colors.white,
+          centerTitle: true,
 //          bottom: new TabBar(
 //            tabs: <Widget>[
 //              new Tab(
@@ -68,7 +73,7 @@ class WalletPageState extends State<WalletPage>
                   ),
 //                    new Center(child: new Text('Tab1')),
 //                    new Center(child: new Text('Tab2')),
-                  ],
+                ],
               ),
             ),
           ],
