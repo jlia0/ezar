@@ -1,4 +1,4 @@
-#Sun Apr 07 14:20:57 MDT 2019
-base.0=/Users/kelvinlew/ezar/build/app/intermediates/transforms/dexMerger/debug/0
+#Wed Apr 10 15:32:28 GMT+08:00 2019
+base.0=C\:\\Users\\PLUTO\\ezar\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
