@@ -30,7 +30,6 @@ class _PicSwiperState extends State<PicSwiper>
   CustomLayoutOption customLayoutOption;
   SwiperController _controller;
 
-
   @override
   void initState() {
     customLayoutOption = new CustomLayoutOption(startIndex: -1, stateCount: 3)
@@ -69,6 +68,7 @@ class _PicSwiperState extends State<PicSwiper>
   }
 
   Widget buildSwiper() {
+    bool _value = true;
     return new Swiper(
       onTap: (int index) {
         Navigator.of(context)
@@ -77,7 +77,14 @@ class _PicSwiperState extends State<PicSwiper>
             appBar: AppBar(
               title: Text("Product Details"),
             ),
-            body: Container(),
+            body: new Switch(
+                value: _value,
+                onChanged: (value) {
+                  setState(() {
+                    _value = value;
+                  });
+                }),
+
           );
         }));
       },

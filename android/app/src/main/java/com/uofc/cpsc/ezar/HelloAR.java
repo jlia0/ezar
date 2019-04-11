@@ -258,15 +258,15 @@ public class HelloAR
                             } else if (target_name.equals("namecard") && video_renderers.get(1).texId() != 0) {
                                 video = new ARVideo();
                                 video.openTransparentVideoFile("transparentvideo.mp4", video_renderers.get(1).texId());
-                                current_video_renderer = video_renderers.get(1);
-                            } else if (target_name.equals("forest") && video_renderers.get(2).texId() != 0) {
+                                current_video_renderer = video_renderers.get(0);
+                            } else if (target_name.equals("forests") && video_renderers.get(0).texId() != 0) {
                                 video = new ARVideo();
-                                video.openVideoFile("forest.mp4", video_renderers.get(2).texId());
-                                current_video_renderer = video_renderers.get(2);
-                            } else if (target_name.equals("jungle") && video_renderers.get(3).texId() != 0) {
+                                video.openVideoFile("forests.mp4", video_renderers.get(0).texId());
+                                current_video_renderer = video_renderers.get(0);
+                            } else if (target_name.equals("jungle") && video_renderers.get(0).texId() != 0) {
                                 video = new ARVideo();
-                                video.openVideoFile("jungle.mp4", video_renderers.get(3).texId());
-                                current_video_renderer = video_renderers.get(3);
+                                video.openVideoFile("jungle.mp4", video_renderers.get(0).texId());
+                                current_video_renderer = video_renderers.get(0);
                             }
                         }
                         if (video != null) {

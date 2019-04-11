@@ -3,8 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:ezar/style/theme.dart' as Theme;
 import 'package:ezar/utils/bubble_indication_painter.dart';
-import 'package:ezar/ui/profile_page.dart';
 import 'package:ezar/ui/main_page_navi.dart';
+import 'package:dio/dio.dart';
 
 class LoginPage extends StatefulWidget {
   LoginPage({Key key}) : super(key: key);
@@ -15,7 +15,6 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage>
     with SingleTickerProviderStateMixin {
-
   final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
 
   final FocusNode myFocusNodeEmailLogin = FocusNode();
@@ -36,7 +35,7 @@ class _LoginPageState extends State<LoginPage>
   TextEditingController signupNameController = new TextEditingController();
   TextEditingController signupPasswordController = new TextEditingController();
   TextEditingController signupConfirmPasswordController =
-  new TextEditingController();
+      new TextEditingController();
 
   PageController _pageController;
 
@@ -53,18 +52,9 @@ class _LoginPageState extends State<LoginPage>
         },
         child: SingleChildScrollView(
           child: Container(
-            width: MediaQuery
-                .of(context)
-                .size
-                .width,
-            height: MediaQuery
-                .of(context)
-                .size
-                .height >= 775.0
-                ? MediaQuery
-                .of(context)
-                .size
-                .height
+            width: MediaQuery.of(context).size.width,
+            height: MediaQuery.of(context).size.height >= 775.0
+                ? MediaQuery.of(context).size.height
                 : 775.0,
             decoration: new BoxDecoration(
               gradient: new LinearGradient(
@@ -215,140 +205,169 @@ class _LoginPageState extends State<LoginPage>
     );
   }
 
-  Widget _buildSignIn(BuildContext context) {
+  //---------------------------------------------
 
+  Widget _buildSignIn(BuildContext context) {
     return Container(
       padding: EdgeInsets.only(top: 23.0),
       child: Column(
         children: <Widget>[
-      Stack(
-      alignment: Alignment.topCenter,
-        overflow: Overflow.visible,
-        children: <Widget>[
-          Card(
-            elevation: 2.0,
-            color: Colors.white,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(8.0),
-            ),
-            child: Container(
-              width: 300.0,
-              height: 190.0,
-              child: Column(
-                children: <Widget>[
-                  Padding(
-                    padding: EdgeInsets.only(
-                        top: 20.0, bottom: 20.0, left: 25.0, right: 25.0),
-                    child: TextField(
-                      focusNode: myFocusNodeEmailLogin,
-                      controller: loginEmailController,
-                      keyboardType: TextInputType.emailAddress,
-                      style: TextStyle(
-                          fontFamily: "WorkSansSemiBold",
-                          fontSize: 16.0,
-                          color: Colors.black),
-                      decoration: InputDecoration(
-                        border: InputBorder.none,
-                        icon: Icon(
-                          FontAwesomeIcons.envelope,
-                          color: Colors.black,
-                          size: 22.0,
-                        ),
-                        hintText: "Email Address",
-                        hintStyle: TextStyle(
-                            fontFamily: "WorkSansSemiBold", fontSize: 17.0),
-                      ),
-                    ),
-                  ),
-                  Container(
-                    width: 250.0,
-                    height: 1.0,
-                    color: Colors.grey[400],
-                  ),
-                  Padding(
-                    padding: EdgeInsets.only(
-                        top: 20.0, bottom: 20.0, left: 25.0, right: 25.0),
-                    child: TextField(
-                      focusNode: myFocusNodePasswordLogin,
-                      controller: loginPasswordController,
-                      obscureText: _obscureTextLogin,
-                      style: TextStyle(
-                          fontFamily: "WorkSansSemiBold",
-                          fontSize: 16.0,
-                          color: Colors.black),
-                      decoration: InputDecoration(
-                        border: InputBorder.none,
-                        icon: Icon(
-                          FontAwesomeIcons.lock,
-                          size: 22.0,
-                          color: Colors.black,
-                        ),
-                        hintText: "Password",
-                        hintStyle: TextStyle(
-                            fontFamily: "WorkSansSemiBold", fontSize: 17.0),
-                        suffixIcon: GestureDetector(
-                          onTap: _toggleLogin,
-                          child: Icon(
-                            FontAwesomeIcons.eye,
-                            size: 15.0,
-                            color: Colors.black,
+          Stack(
+            alignment: Alignment.topCenter,
+            overflow: Overflow.visible,
+            children: <Widget>[
+              Card(
+                elevation: 2.0,
+                color: Colors.white,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(8.0),
+                ),
+                child: Container(
+                  width: 300.0,
+                  height: 190.0,
+                  child: Column(
+                    children: <Widget>[
+                      Padding(
+                        padding: EdgeInsets.only(
+                            top: 20.0, bottom: 20.0, left: 25.0, right: 25.0),
+                        child: TextField(
+                          focusNode: myFocusNodeEmailLogin,
+                          controller: loginEmailController,
+                          keyboardType: TextInputType.emailAddress,
+                          style: TextStyle(
+                              fontFamily: "WorkSansSemiBold",
+                              fontSize: 16.0,
+                              color: Colors.black),
+                          decoration: InputDecoration(
+                            border: InputBorder.none,
+                            icon: Icon(
+                              FontAwesomeIcons.envelope,
+                              color: Colors.black,
+                              size: 22.0,
+                            ),
+                            hintText: "Email Address",
+                            hintStyle: TextStyle(
+                                fontFamily: "WorkSansSemiBold", fontSize: 17.0),
                           ),
                         ),
                       ),
-                    ),
+                      Container(
+                        width: 250.0,
+                        height: 1.0,
+                        color: Colors.grey[400],
+                      ),
+                      Padding(
+                        padding: EdgeInsets.only(
+                            top: 20.0, bottom: 20.0, left: 25.0, right: 25.0),
+                        child: TextField(
+                          focusNode: myFocusNodePasswordLogin,
+                          controller: loginPasswordController,
+                          obscureText: _obscureTextLogin,
+                          style: TextStyle(
+                              fontFamily: "WorkSansSemiBold",
+                              fontSize: 16.0,
+                              color: Colors.black),
+                          decoration: InputDecoration(
+                            border: InputBorder.none,
+                            icon: Icon(
+                              FontAwesomeIcons.lock,
+                              size: 22.0,
+                              color: Colors.black,
+                            ),
+                            hintText: "Password",
+                            hintStyle: TextStyle(
+                                fontFamily: "WorkSansSemiBold", fontSize: 17.0),
+                            suffixIcon: GestureDetector(
+                              onTap: _toggleLogin,
+                              child: Icon(
+                                FontAwesomeIcons.eye,
+                                size: 15.0,
+                                color: Colors.black,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
-                ],
+                ),
               ),
-            ),
-          ),
-          Container(
-            margin: EdgeInsets.only(top: 170.0),
-            decoration: new BoxDecoration(
-              borderRadius: BorderRadius.all(Radius.circular(5.0)),
-              boxShadow: <BoxShadow>[
-                BoxShadow(
-                  color: Theme.Colors.loginGradientStart,
-                  offset: Offset(1.0, 6.0),
-                  blurRadius: 20.0,
-                ),
-                BoxShadow(
-                  color: Theme.Colors.loginGradientEnd,
-                  offset: Offset(1.0, 6.0),
-                  blurRadius: 20.0,
-                ),
-              ],
-              gradient: new LinearGradient(
-                  colors: [
-                    Theme.Colors.loginGradientEnd,
-                    Theme.Colors.loginGradientStart
-                  ],
-                  begin: const FractionalOffset(0.2, 0.2),
-                  end: const FractionalOffset(1.0, 1.0),
-                  stops: [0.0, 1.0],
-                  tileMode: TileMode.clamp),
-            ),
-            child: MaterialButton(
-                highlightColor: Colors.transparent,
-                splashColor: Theme.Colors.loginGradientEnd,
-                //shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(5.0))),
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(
-                      vertical: 10.0, horizontal: 42.0),
-                  child: Text(
-                    "LOGIN",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 25.0,
-                        fontFamily: "WorkSansBold"),
+              Container(
+                  margin: EdgeInsets.only(top: 170.0),
+                  decoration: new BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(5.0)),
+                    boxShadow: <BoxShadow>[
+                      BoxShadow(
+                        color: Theme.Colors.loginGradientStart,
+                        offset: Offset(1.0, 6.0),
+                        blurRadius: 20.0,
+                      ),
+                      BoxShadow(
+                        color: Theme.Colors.loginGradientEnd,
+                        offset: Offset(1.0, 6.0),
+                        blurRadius: 20.0,
+                      ),
+                    ],
+                    gradient: new LinearGradient(
+                        colors: [
+                          Theme.Colors.loginGradientEnd,
+                          Theme.Colors.loginGradientStart
+                        ],
+                        begin: const FractionalOffset(0.2, 0.2),
+                        end: const FractionalOffset(1.0, 1.0),
+                        stops: [0.0, 1.0],
+                        tileMode: TileMode.clamp),
                   ),
-                ),
-                onPressed: () {
-                // Login action
-                Navigator.push(context, new MaterialPageRoute(builder: (context)=>new MainPage()));
-                //showInSnackBar("Login button pressed")),
-                },
+                  child: MaterialButton(
+                    highlightColor: Colors.transparent,
+                    splashColor: Theme.Colors.loginGradientEnd,
+                    //shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(5.0))),
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 10.0, horizontal: 42.0),
+                      child: Text(
+                        "LOGIN",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25.0,
+                            fontFamily: "WorkSansBold"),
+                      ),
+                    ),
+                    onPressed: () {
+                      // Login action
 
-            )),
+                      //_signIn('jian.liao1@ucalgary.ca', 'testing');
+                      Response response;
+                      run() async {
+                        response = await Dio().post(
+                            "https://ez-ar.herokuapp.com/users/login",
+                            data: {
+                              "email": 'jian.liao1@ucalgary.ca',
+                              "pwd": 'testing'
+                            });
+                        if (response.toString().isNotEmpty) {
+                          if (response.toString() == 'Login success') {
+                            print('Email is:' + loginEmailController.text);
+                            print(
+                                'Password is:' + loginPasswordController.text);
+                            print('Login Action: ' + response.toString());
+                            showInSnackBar("Login Success");
+                            Navigator.push(
+                                context,
+                                new MaterialPageRoute(
+                                    builder: (context) => new MainPage()));
+                          }
+                        } else {
+                          showInSnackBar("Login Failed");
+                        }
+                      }
+
+                      run();
+
+                      //Navigator.push(context, new MaterialPageRoute(builder: (context)=>new MainPage()));
+                      //showInSnackBar("Login button pressed")),
+                    },
+                  )),
             ],
           ),
           Padding(
@@ -455,6 +474,8 @@ class _LoginPageState extends State<LoginPage>
       ),
     );
   }
+
+  //---------------------------------------------
 
   Widget _buildSignUp(BuildContext context) {
     return Container(
@@ -604,54 +625,97 @@ class _LoginPageState extends State<LoginPage>
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 340.0),
-                decoration: new BoxDecoration(
-                  borderRadius: BorderRadius.all(Radius.circular(5.0)),
-                  boxShadow: <BoxShadow>[
-                    BoxShadow(
-                      color: Theme.Colors.loginGradientStart,
-                      offset: Offset(1.0, 6.0),
-                      blurRadius: 20.0,
-                    ),
-                    BoxShadow(
-                      color: Theme.Colors.loginGradientEnd,
-                      offset: Offset(1.0, 6.0),
-                      blurRadius: 20.0,
-                    ),
-                  ],
-                  gradient: new LinearGradient(
-                      colors: [
-                        Theme.Colors.loginGradientEnd,
-                        Theme.Colors.loginGradientStart
-                      ],
-                      begin: const FractionalOffset(0.2, 0.2),
-                      end: const FractionalOffset(1.0, 1.0),
-                      stops: [0.0, 1.0],
-                      tileMode: TileMode.clamp),
-                ),
-                child: MaterialButton(
-                    highlightColor: Colors.transparent,
-                    splashColor: Theme.Colors.loginGradientEnd,
-                    //shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(5.0))),
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(
-                          vertical: 10.0, horizontal: 42.0),
-                      child: Text(
-                        "SIGN UP",
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 25.0,
-                            fontFamily: "WorkSansBold"),
+                  margin: EdgeInsets.only(top: 340.0),
+                  decoration: new BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(5.0)),
+                    boxShadow: <BoxShadow>[
+                      BoxShadow(
+                        color: Theme.Colors.loginGradientStart,
+                        offset: Offset(1.0, 6.0),
+                        blurRadius: 20.0,
                       ),
-                    ),
-                    onPressed: () =>
-                        showInSnackBar("SignUp button pressed")),
-              ),
+                      BoxShadow(
+                        color: Theme.Colors.loginGradientEnd,
+                        offset: Offset(1.0, 6.0),
+                        blurRadius: 20.0,
+                      ),
+                    ],
+                    gradient: new LinearGradient(
+                        colors: [
+                          Theme.Colors.loginGradientEnd,
+                          Theme.Colors.loginGradientStart
+                        ],
+                        begin: const FractionalOffset(0.2, 0.2),
+                        end: const FractionalOffset(1.0, 1.0),
+                        stops: [0.0, 1.0],
+                        tileMode: TileMode.clamp),
+                  ),
+                  child: MaterialButton(
+                      highlightColor: Colors.transparent,
+                      splashColor: Theme.Colors.loginGradientEnd,
+                      //shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(5.0))),
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 10.0, horizontal: 42.0),
+                        child: Text(
+                          "SIGN UP",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 25.0,
+                              fontFamily: "WorkSansBold"),
+                        ),
+                      ),
+                      onPressed: () {
+                        String username, email, password, confirmpassword;
+
+                        username = signupNameController.text;
+                        email = signupEmailController.text;
+                        password = signupPasswordController.text;
+                        confirmpassword = signupConfirmPasswordController.text;
+
+                        Response response;
+                        run() async {
+                          response = await Dio().post(
+                              "https://ez-ar.herokuapp.com/users/register",
+                              data: {
+                                "email": signupEmailController.text,
+                                "username": signupNameController.text,
+                                "pwd": signupPasswordController.text
+                              });
+                          if (response.toString().isNotEmpty) {
+                            if (response.toString() ==
+                                'Registry successfully') {
+                              print('Email is:' + email);
+                              print('Username is:' + username);
+                              print('Password is:' + password);
+                              print('ConfirmPWD is:' + confirmpassword);
+                              print('Login Action: ' + response.toString());
+
+                              showInSnackBar("Register Success");
+                            }
+                          } else {
+                            showInSnackBar("Register Failed");
+                          }
+                        }
+
+                        run();
+                      })),
             ],
           ),
         ],
       ),
     );
+  }
+
+  void _signIn(email, pwd) async {
+    try {
+      Response response;
+      response = await Dio().post("https://ez-ar.herokuapp.com/users/login",
+          data: {"email": email, "pwd": pwd});
+      print(response);
+    } catch (e) {
+      print(e);
+    }
   }
 
   void _onSignInButtonPress() {

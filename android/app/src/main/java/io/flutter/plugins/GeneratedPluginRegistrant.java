@@ -2,6 +2,7 @@ package io.flutter.plugins;
 
 import io.flutter.plugin.common.PluginRegistry;
 import io.flutter.plugins.firebase.core.FirebaseCorePlugin;
+import io.flutter.plugins.firebase.storage.FirebaseStoragePlugin;
 
 /**
  * Generated file. Do not edit.
@@ -12,6 +13,7 @@ public final class GeneratedPluginRegistrant {
       return;
     }
     FirebaseCorePlugin.registerWith(registry.registrarFor("io.flutter.plugins.firebase.core.FirebaseCorePlugin"));
+    FirebaseStoragePlugin.registerWith(registry.registrarFor("io.flutter.plugins.firebase.storage.FirebaseStoragePlugin"));
   }
 
   private static boolean alreadyRegisteredWith(PluginRegistry registry) {
