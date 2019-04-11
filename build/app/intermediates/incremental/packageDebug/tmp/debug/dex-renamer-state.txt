@@ -1,4 +1,0 @@
-#Sun Apr 07 14:20:57 MDT 2019
-base.0=/Users/kelvinlew/ezar/build/app/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
