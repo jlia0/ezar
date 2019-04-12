@@ -28,10 +28,10 @@ dependencies:
   firebase_core: ^0.3.4  # add dependency for Firebase Core/ THIS IS A WEIRD BUG (WAITING FOR OFFICIAL UPDATE)
   dio: 2.1.2
   firebase_storage: ^2.1.0+1
-#  cached_network_image: ^0.7.0
-#  multi_image_picker: ^4.0.2
-#  path_provider: ^0.5.0+1
-#  path: ^1.6.2
+  cached_network_image: ^0.7.0
+  multi_image_picker: ^4.0.3
+  path_provider: ^0.5.0+1
+  path: ^1.6.2
 
 dev_dependencies:
   flutter_test:

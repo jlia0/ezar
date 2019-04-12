@@ -352,10 +352,10 @@ class _LoginPageState extends State<LoginPage>
                                 'Password is:' + loginPasswordController.text);
                             print('Login Action: ' + response.toString());
                             showInSnackBar("Login Success");
-                            Navigator.push(
+                            Navigator.pushAndRemoveUntil(
                                 context,
                                 new MaterialPageRoute(
-                                    builder: (context) => new MainPage()));
+                                    builder: (context) => new MainPage(user_id:"14")), (route) => route == null);
                           }
                         } else {
                           showInSnackBar("Login Failed");

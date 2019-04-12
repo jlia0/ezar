@@ -46,44 +46,126 @@ class HistoryPageState extends State<HistoryPage>
     );
   }
 
+  Widget _buildCard() {
+    return new SizedBox(
+      height: 636.0, //设置高度
+      child: new Card(
+        elevation: 0, //设置阴影
+        shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.all(Radius.circular(0))), //设置圆角
+        child: new Column( // card只能有一个widget，但这个widget内容可以包含其他的widget
+          children: [
+            new ListTile(
+              title: new Text('Today',
+                  style: new TextStyle(fontWeight: FontWeight.w300)),
+
+            ),
+
+            new ListTile(
+              title: new Text('Bio Steel',
+                  style: new TextStyle(fontWeight: FontWeight.w500)),
+              subtitle: new Text('January 20,2019'),
+              leading: new Icon(
+                Icons.people,
+                color: Colors.blue[500],
+              ),
+            ),
+
+
+            new Divider(),
+            new Divider(),
+            new ListTile(
+              title: new Text('Yesterday',
+                  style: new TextStyle(fontWeight: FontWeight.w300)),
+            ),
+            new ListTile(
+              title: new Text('Pepsi'),
+              subtitle: new Text('January 19,2019'),
+              leading: new Icon(
+                Icons.local_drink,
+                color: Colors.blue[500],
+              ),
+            ), new ListTile(
+              title: new Text('Village Ice Cream'),
+              subtitle: new Text('January 19,2019'),
+              leading: new Icon(
+                Icons.fastfood,
+                color: Colors.blue[500],
+              ),
+            ),
+
+
+            new Divider(),
+            new Divider(),
+            new ListTile(
+              title: new Text('Last Week',
+                  style: new TextStyle(fontWeight: FontWeight.w300)),
+            ),
+            new ListTile(
+              title: new Text('John Doe'),
+              subtitle: new Text('January 19,2019'),
+              leading: new Icon(
+                Icons.people_outline,
+                color: Colors.blue[500],
+              ),
+            ),
+            new ListTile(
+              title: new Text('Chinook Cineplex'),
+              subtitle: new Text('One Free Ticket'),
+              leading: new Icon(
+                Icons.tab,
+                color: Colors.blue[500],
+              ),
+            ),
+          ],
+
+        ),
+
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
-    Size screenSize = MediaQuery.of(context).size;
+    Size screenSize = MediaQuery
+        .of(context)
+        .size;
     double aHeight;
-    aHeight = MediaQuery.of(context).padding.top;
+    aHeight = MediaQuery
+        .of(context)
+        .padding
+        .top;
 
     if (aHeight == 44) {
-      aHeight = 5;
-    }
-
-    if (aHeight == 0 || aHeight == 20) {
+      aHeight = 0;
+    }else if (aHeight == 0 || aHeight == 20) {
       aHeight = 44;
     }
     return Scaffold(
       body: new Column(
-        children: <Widget>[
-          new Stack(
+          children: <Widget>[
+      new Stack(
+      children: <Widget>[
+          _buildCoverImage(screenSize),
+      SafeArea(
+        child: SingleChildScrollView(
+          child: Column(
             children: <Widget>[
-              _buildCoverImage(screenSize),
-              SafeArea(
-                child: SingleChildScrollView(
-                  child: Column(
-                    children: <Widget>[
-                      SizedBox(height: aHeight),
-                      Center(
-                        child: _buildHead(),
-                      ),
-                      //SizedBox(height: 15.0),
-                    ],
-                  ),
-                ),
+              SizedBox(height: aHeight),
+              Center(
+                child: _buildHead(),
               ),
+              //SizedBox(height: 15.0),
             ],
           ),
-
-
-        ],
+        ),
       ),
+      ],
+    ),
+    _buildCard(),
+
+    ],
+    ),
     );
   }
 }

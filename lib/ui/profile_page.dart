@@ -1,9 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:ezar/style/theme.dart' as MTheme;
 import 'package:ezar/utils/swiper.dart';
+import 'package:ezar/ui/upload_pics_page.dart';
+import 'package:dio/dio.dart';
+import 'dart:convert';
+import 'package:flutter/cupertino.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 
 class ProfilePage extends StatefulWidget {
+  String user_id;
+
+  ProfilePage({this.user_id});
+
   @override
   State<StatefulWidget> createState() {
     // TODO: implement createState
@@ -13,7 +21,41 @@ class ProfilePage extends StatefulWidget {
 
 class ProfilePageState extends State<ProfilePage>
     with AutomaticKeepAliveClientMixin, SingleTickerProviderStateMixin {
-  final String _fullName = "Jian Liao";
+  String _fullName;
+  String _profilelink;
+  String fullName = "Jian Liao";
+
+  loadData() async {
+    print(widget.user_id);
+    Response re1 =
+        await Dio().post("https://ez-ar.herokuapp.com/users/getters/getProfile", data: {
+      "method": 'getProfile',
+      "user_id": widget.user_id,
+    });
+
+    Response re2 =
+        await Dio().post("https://ez-ar.herokuapp.com/users/getters/getUserName", data: {
+      "method": 'getUserName',
+      "user_id": widget.user_id,
+    });
+
+    var result1 = json.decode(re1.toString());
+    var result2 = json.decode(re2.toString());
+    setState(() {
+      print(result1);
+      print(result2);
+      _fullName = result2['username'];
+      _profilelink = result1['profilepicture'];
+      print(_fullName);
+      print(_profilelink);
+    });
+  }
+
+  @override
+  void initState() {
+    loadData();
+    //super.initState();
+  }
 
   @override
   // TODO: implement wantKeepAlive
@@ -37,23 +79,59 @@ class ProfilePageState extends State<ProfilePage>
   }
 
   Widget _buildProfileImage(Size screensize) {
-    return Center(
-      child: Container(
-        width: screensize.height*0.13,
-        height: screensize.height*0.13,
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage('assets/img/profile.jpeg'),
-            fit: BoxFit.cover,
+    if (_profilelink != null) {
+      return Center(
+        child: new GestureDetector(
+          child: Container(
+            width: screensize.height * 0.13,
+            height: screensize.height * 0.13,
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: new CachedNetworkImageProvider(_profilelink),
+                fit: BoxFit.cover,
+              ),
+              borderRadius: BorderRadius.circular(80.0),
+              border: Border.all(
+                color: Colors.white,
+                width: 5.0,
+              ),
+            ),
           ),
-          borderRadius: BorderRadius.circular(80.0),
-          border: Border.all(
-            color: Colors.white,
-            width: 5.0,
-          ),
+          onTap: () {
+            Navigator.push(context,
+                new MaterialPageRoute(builder: (BuildContext context) {
+              return new UploadPics();
+            }));
+          },
         ),
-      ),
-    );
+      );
+    } else {
+      return Center(
+        child: new GestureDetector(
+          child: Container(
+            width: screensize.height * 0.13,
+            height: screensize.height * 0.13,
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage('assets/img/login_logo.png'),
+                fit: BoxFit.cover,
+              ),
+              borderRadius: BorderRadius.circular(80.0),
+              border: Border.all(
+                color: Colors.white,
+                width: 5.0,
+              ),
+            ),
+          ),
+          onTap: () {
+            Navigator.push(context,
+                new MaterialPageRoute(builder: (BuildContext context) {
+                  return new UploadPics();
+                }));
+          },
+        ),
+      );
+    }
   }
 
   Widget _buildFullName() {
@@ -64,10 +142,14 @@ class ProfilePageState extends State<ProfilePage>
       fontWeight: FontWeight.w300,
     );
 
-    return Text(
-      _fullName,
-      style: _nameTextStyle,
-    );
+    if (_fullName != null) {
+      return Text(
+        _fullName,
+        style: _nameTextStyle,
+      );
+    } else {
+      return Text("Loading...", style: _nameTextStyle);
+    }
   }
 
   Widget _buildTabBar() {
@@ -251,16 +333,15 @@ class ProfilePageState extends State<ProfilePage>
   Widget build(BuildContext context) {
     Size screenSize = MediaQuery.of(context).size;
     double aHeight;
-    aHeight=MediaQuery.of(context).padding.top;
+    aHeight = MediaQuery.of(context).padding.top;
 
-    if(aHeight==44){
-      aHeight=10;
+    if (aHeight == 44) {
+      aHeight = 10;
     }
 
-    if(aHeight==0 || aHeight==20){
-      aHeight=44;
+    if (aHeight == 0 || aHeight == 20) {
+      aHeight = 44;
     }
-
 
     return new DefaultTabController(
       length: 2,
@@ -274,10 +355,9 @@ class ProfilePageState extends State<ProfilePage>
                   child: SingleChildScrollView(
                     child: Column(
                       children: <Widget>[
-
                         SizedBox(height: aHeight),
                         _buildProfileImage(screenSize),
-                        SizedBox(height:15),
+                        SizedBox(height: 15),
                         _buildFullName(),
                         //SizedBox(height: 15.0),
                       ],

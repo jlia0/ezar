@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:flutter_page_indicator/flutter_page_indicator.dart';
 import 'dart:async';
+import 'dart:convert';
+import 'package:dio/dio.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:cached_network_image/cached_network_image.dart';
+import 'package:ezar/ui/product_details_page.dart';
 
 class PicSwiper extends StatefulWidget {
   @override
@@ -29,64 +34,85 @@ class _PicSwiperState extends State<PicSwiper>
   bool _autoplayDisableOnInteraction;
   CustomLayoutOption customLayoutOption;
   SwiperController _controller;
+  List Ads = [];
+
+  loadData() async {
+    Response re = await Dio().get('http://ez-ar.herokuapp.com/users/json');
+    var result = json.decode(re.toString());
+    setState(() {
+      Ads = result;
+      _itemCount = Ads.length;
+      customLayoutOption = new CustomLayoutOption(startIndex: -1, stateCount: 3)
+          .addRotate([-25.0 / 180, 0.0, 25.0 / 180]).addTranslate([
+        new Offset(-350.0, 0.0),
+        new Offset(0.0, 0.0),
+        new Offset(350.0, 0.0)
+      ]);
+      _fade = 1.0;
+      _currentIndex = 0;
+      _curve = Curves.ease;
+      _scale = 0.8;
+      _controller = new SwiperController();
+      _layout = SwiperLayout.DEFAULT;
+      _radius = 10.0;
+      _padding = 0.0;
+      _loop = false;
+      _autoplay = false;
+      _autoplayDely = 3000;
+      _viewportFraction = 0.8;
+      _outer = false;
+      _scrollDirection = Axis.horizontal;
+      _autoplayDisableOnInteraction = false;
+    });
+  }
 
   @override
   void initState() {
-    customLayoutOption = new CustomLayoutOption(startIndex: -1, stateCount: 3)
-        .addRotate([-25.0 / 180, 0.0, 25.0 / 180]).addTranslate([
-      new Offset(-350.0, 0.0),
-      new Offset(0.0, 0.0),
-      new Offset(350.0, 0.0)
-    ]);
-    _fade = 1.0;
-    _currentIndex = 0;
-    _curve = Curves.ease;
-    _scale = 0.8;
-    _controller = new SwiperController();
-    _layout = SwiperLayout.DEFAULT;
-    _radius = 10.0;
-    _padding = 0.0;
-    _loop = false;
-    _itemCount = 3;
-    _autoplay = false;
-    _autoplayDely = 3000;
-    _viewportFraction = 0.8;
-    _outer = false;
-    _scrollDirection = Axis.horizontal;
-    _autoplayDisableOnInteraction = false;
-    super.initState();
+
+
+    loadData();
+
+    //super.initState();
   }
 
   Widget _buildItem(BuildContext context, int index) {
     return ClipRRect(
-      borderRadius: new BorderRadius.all(new Radius.circular(_radius)),
-      child: new Image.network(
-        "https://www.virginexperiencedays.co.uk/content/img/product/large/the-view-from-the-12102928.jpg",
-        fit: BoxFit.fill,
-      ),
-    );
+        borderRadius: new BorderRadius.all(new Radius.circular(_radius)),
+        child: new CachedNetworkImage(
+          imageUrl: Ads[index]['pic_link'],
+          //imageUrl: "http://salvidatech.com/IDPics/forests.jpg",
+          placeholder: (context, url) => new CircularProgressIndicator(),
+          errorWidget: (context, url, error) => new Icon(Icons.error),
+          fit: BoxFit.fill,
+        ));
   }
 
   Widget buildSwiper() {
     bool _value = true;
     return new Swiper(
-      onTap: (int index) {
-        Navigator.of(context)
-            .push(new MaterialPageRoute(builder: (BuildContext context) {
-          return Scaffold(
-            appBar: AppBar(
-              title: Text("Product Details"),
-            ),
-            body: new Switch(
-                value: _value,
-                onChanged: (value) {
-                  setState(() {
-                    _value = value;
-                  });
-                }),
-
-          );
+//      onTap: (int index) {
+//        Navigator.of(context)
+//            .push(new MaterialPageRoute(builder: (BuildContext context) {
+//          return Scaffold(
+//            appBar: AppBar(
+//              title: Text("Product Details"),
+//            ),
+//            body: new Switch(
+//                value: _value,
+//                onChanged: (value) {
+//                  setState(() {
+//                    _value = value;
+//                  });
+//                }),
+//          );
+//        }));
+//      },
+      onTap: (int index){
+        Navigator.push(context, new MaterialPageRoute(builder: (BuildContext context){
+          print(json.encode(Ads[index]).toString());
+          return new ProductDetails(ads:json.encode(Ads[index]).toString());
         }));
+
       },
       customLayoutOption: customLayoutOption,
       fade: _fade,
@@ -120,19 +146,26 @@ class _PicSwiperState extends State<PicSwiper>
 
   @override
   Widget build(BuildContext context) {
-    return new Column(
-      children: <Widget>[
-        new SizedBox(height: 15),
-        new Container(
-          child: new SizedBox(
-            height: 170,
-            width: double.infinity,
-            child: buildSwiper(),
+    if(Ads.length!=0){
+      return new Column(
+        children: <Widget>[
+          new SizedBox(height: 15),
+          new Container(
+            child: new SizedBox(
+              height: 170,
+              width: double.infinity,
+              child: buildSwiper(),
+            ),
           ),
-        ),
-        new SizedBox(height: 15),
-      ],
-    );
+          new SizedBox(height: 15),
+        ],
+      );
+    }else{
+      return new Center(
+        child: new Text("Loading..."),
+      );
+    }
+
   }
 
   @override

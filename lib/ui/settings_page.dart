@@ -122,10 +122,8 @@ class SettingsPageState extends State<SettingsPage>
     aHeight = MediaQuery.of(context).padding.top;
 
     if (aHeight == 44) {
-      aHeight = 5;
-    }
-
-    if (aHeight == 0 || aHeight == 20) {
+      aHeight = 0;
+    }else if (aHeight == 0 || aHeight == 20) {
       aHeight = 44;
     }
 

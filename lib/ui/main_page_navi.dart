@@ -7,6 +7,9 @@ import 'package:ezar/utils/fab_bottom_app_bar.dart';
 import 'package:flutter/services.dart';
 
 class MainPage extends StatefulWidget {
+  String user_id;
+  MainPage({this.user_id});
+
   @override
   _MainPageState createState() => _MainPageState();
 }
@@ -31,7 +34,7 @@ class _MainPageState extends State<MainPage>
       body: PageView(
         controller: _controller,
         children: <Widget>[
-          ProfilePage(),
+          ProfilePage(user_id: widget.user_id,),
           WalletPage(),
           HistoryPage(),
           SettingsPage()
@@ -52,49 +55,11 @@ class _MainPageState extends State<MainPage>
         },
         items: [
           FABBottomAppBarItem(iconData: Icons.person_outline, text: 'Profile'),
-          FABBottomAppBarItem(iconData: Icons.account_balance_wallet, text: 'Wallet'),
+          FABBottomAppBarItem(
+              iconData: Icons.account_balance_wallet, text: 'Wallet'),
           FABBottomAppBarItem(iconData: Icons.history, text: 'History'),
           FABBottomAppBarItem(iconData: Icons.settings, text: 'Settings'),
         ],
-//        type: BottomNavigationBarType.fixed,
-//        items: [
-//          BottomNavigationBarItem(
-//              icon: Icon(
-//                Icons.home,
-//                color: _bottomNavigationColor,
-//              ),
-//              title: Text(
-//                'HOME',
-//                style: TextStyle(color: _bottomNavigationColor),
-//              )),
-//          BottomNavigationBarItem(
-//              icon: Icon(
-//                Icons.email,
-//                color: _bottomNavigationColor,
-//              ),
-//              title: Text(
-//                'Email',
-//                style: TextStyle(color: _bottomNavigationColor),
-//              )),
-//          BottomNavigationBarItem(
-//              icon: Icon(
-//                Icons.pages,
-//                color: _bottomNavigationColor,
-//              ),
-//              title: Text(
-//                'PAGES',
-//                style: TextStyle(color: _bottomNavigationColor),
-//              )),
-//          BottomNavigationBarItem(
-//              icon: Icon(
-//                Icons.airplay,
-//                color: _bottomNavigationColor,
-//              ),
-//              title: Text(
-//                'AIRPLAY',
-//                style: TextStyle(color: _bottomNavigationColor),
-//              )),
-//        ],
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(
