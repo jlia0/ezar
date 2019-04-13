@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:ezar/style/theme.dart' as MTheme;
+import 'package:ezar/ui/upload_pics_page.dart';
 
 class SettingsPage extends StatefulWidget {
+  bool busi;
+
+  SettingsPage({this.busi});
+
   @override
   State<StatefulWidget> createState() {
     // TODO: implement createState
@@ -11,13 +16,20 @@ class SettingsPage extends StatefulWidget {
 
 class SettingsPageState extends State<SettingsPage>
     with AutomaticKeepAliveClientMixin {
+  bool _value = false;
+
+  @override
+  void initState() {
+    print(widget.busi);
+    _value = widget.busi;
+    //super.initState();
+  }
+
   @override
   // TODO: implement wantKeepAlive
   bool get wantKeepAlive => true;
 
-  bool _value = false;
-
-  Widget _buildCard(String Name) {
+  Widget _buildCard(String Name, {onTTap}) {
     Size screenSize = MediaQuery.of(context).size;
 
     return new SizedBox(
@@ -40,13 +52,17 @@ class SettingsPageState extends State<SettingsPage>
             ],
           ),
           trailing: Icon(Icons.keyboard_arrow_right),
+          onTap: onTTap,
         ),
         //new Divider(),
       ),
     );
   }
 
-  void _onChanged(bool value) => setState(() => _value = value);
+  void _onChanged(bool value) => setState(() {
+        _value = value;
+        widget.busi = _value;
+      });
 
   Widget _buildSwitch(String Name) {
     Size screenSize = MediaQuery.of(context).size;
@@ -75,7 +91,7 @@ class SettingsPageState extends State<SettingsPage>
           ),
           onTap: () {
             setState(() {
-              _value=!_value;
+              _value = !_value;
             });
           },
         ),
@@ -123,39 +139,78 @@ class SettingsPageState extends State<SettingsPage>
 
     if (aHeight == 44) {
       aHeight = 0;
-    }else if (aHeight == 0 || aHeight == 20) {
-      aHeight = 44;
+    } else if (aHeight == 0 || aHeight == 20) {
+      aHeight = 25;
     }
 
-    return Scaffold(
-      body: new Column(
-        children: <Widget>[
-          new Stack(
-            children: <Widget>[
-              _buildCoverImage(screenSize),
-              SafeArea(
-                child: SingleChildScrollView(
-                  child: Column(
-                    children: <Widget>[
-                      SizedBox(height: aHeight),
-                      Center(
-                        child: _buildHead(),
-                      ),
-                      //SizedBox(height: 15.0),
-                    ],
+    if (widget.busi == true) {
+      return Scaffold(
+        body: new Column(
+          children: <Widget>[
+            new Stack(
+              children: <Widget>[
+                _buildCoverImage(screenSize),
+                SafeArea(
+                  child: SingleChildScrollView(
+                    child: Column(
+                      children: <Widget>[
+                        SizedBox(height: aHeight),
+                        Center(
+                          child: _buildHead(),
+                        ),
+                        //SizedBox(height: 15.0),
+                      ],
+                    ),
                   ),
                 ),
-              ),
-            ],
-          ),
-          SizedBox(height: screenSize.height * 0.01),
-          _buildSwitch("Business Account"),
-          _buildCard("Notifications"),
-          _buildCard("Help & Feedback"),
-          _buildCard("About"),
-          _buildCard("Logout"),
-        ],
-      ),
-    );
+              ],
+            ),
+            SizedBox(height: screenSize.height * 0.01),
+            _buildSwitch("Business Account"),
+            _buildCard("Notifications"),
+            _buildCard("Help & Feedback"),
+            _buildCard("About"),
+            _buildCard("Logout"),
+            _buildCard("Upload Ads", onTTap: () {
+              Navigator.push(context,
+                  new MaterialPageRoute(builder: (BuildContext context) {
+                return new UploadPics();
+              }));
+            }),
+          ],
+        ),
+      );
+    } else {
+      return Scaffold(
+        body: new Column(
+          children: <Widget>[
+            new Stack(
+              children: <Widget>[
+                _buildCoverImage(screenSize),
+                SafeArea(
+                  child: SingleChildScrollView(
+                    child: Column(
+                      children: <Widget>[
+                        SizedBox(height: aHeight),
+                        Center(
+                          child: _buildHead(),
+                        ),
+                        //SizedBox(height: 15.0),
+                      ],
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            SizedBox(height: screenSize.height * 0.01),
+            _buildSwitch("Business Account"),
+            _buildCard("Notifications"),
+            _buildCard("Help & Feedback"),
+            _buildCard("About"),
+            _buildCard("Logout"),
+          ],
+        ),
+      );
+    }
   }
 }

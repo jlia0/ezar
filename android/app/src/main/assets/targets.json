@@ -8,10 +8,21 @@
       "image": "forests.jpg",
       "name": "forests"
     },
-
     {
       "image": "jungle.jpg",
       "name": "jungle"
+    },
+    {
+      "image": "biosteel.jpg",
+      "name": "biosteel"
+    },
+    {
+      "image": "dq.jpg",
+      "name": "dq"
+    },
+    {
+      "image": "nike.jpg",
+      "name": "nike"
     }
   ]
 }

@@ -48,7 +48,9 @@ class HistoryPageState extends State<HistoryPage>
 
   Widget _buildCard() {
     return new SizedBox(
-      height: 636.0, //设置高度
+      height: MediaQuery
+          .of(context)
+          .size.height-200, //设置高度
       child: new Card(
         elevation: 0, //设置阴影
         shape: const RoundedRectangleBorder(
@@ -93,30 +95,6 @@ class HistoryPageState extends State<HistoryPage>
                 color: Colors.blue[500],
               ),
             ),
-
-
-            new Divider(),
-            new Divider(),
-            new ListTile(
-              title: new Text('Last Week',
-                  style: new TextStyle(fontWeight: FontWeight.w300)),
-            ),
-            new ListTile(
-              title: new Text('John Doe'),
-              subtitle: new Text('January 19,2019'),
-              leading: new Icon(
-                Icons.people_outline,
-                color: Colors.blue[500],
-              ),
-            ),
-            new ListTile(
-              title: new Text('Chinook Cineplex'),
-              subtitle: new Text('One Free Ticket'),
-              leading: new Icon(
-                Icons.tab,
-                color: Colors.blue[500],
-              ),
-            ),
           ],
 
         ),
@@ -139,7 +117,7 @@ class HistoryPageState extends State<HistoryPage>
     if (aHeight == 44) {
       aHeight = 0;
     }else if (aHeight == 0 || aHeight == 20) {
-      aHeight = 44;
+      aHeight = 25;
     }
     return Scaffold(
       body: new Column(

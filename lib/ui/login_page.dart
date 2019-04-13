@@ -338,24 +338,34 @@ class _LoginPageState extends State<LoginPage>
 
                       //_signIn('jian.liao1@ucalgary.ca', 'testing');
                       Response response;
+                      //Response re;
                       run() async {
                         response = await Dio().post(
                             "https://ez-ar.herokuapp.com/users/login",
                             data: {
-                              "email": 'jian.liao1@ucalgary.ca',
-                              "pwd": 'testing'
+                              "email": loginEmailController.text,
+                              "pwd": loginPasswordController.text
                             });
+
+//                        re = await Dio().post(
+//                            "https://ez-ar.herokuapp.com/users/getters/getUserID",
+//                            data: {
+//                              "email": loginEmailController.text,
+//                            });
+
+
                         if (response.toString().isNotEmpty) {
-                          if (response.toString() == 'Login success') {
+                          if (response.toString() != 'Password is not correct') {
                             print('Email is:' + loginEmailController.text);
                             print(
                                 'Password is:' + loginPasswordController.text);
                             print('Login Action: ' + response.toString());
+//                            print('Login userid: ' + re.toString());
                             showInSnackBar("Login Success");
                             Navigator.pushAndRemoveUntil(
                                 context,
                                 new MaterialPageRoute(
-                                    builder: (context) => new MainPage(user_id:"14")), (route) => route == null);
+                                    builder: (context) => new MainPage(user_id:response.toString())), (route) => route == null);
                           }
                         } else {
                           showInSnackBar("Login Failed");

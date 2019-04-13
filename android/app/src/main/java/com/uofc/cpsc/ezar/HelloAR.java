@@ -267,6 +267,18 @@ public class HelloAR
                                 video = new ARVideo();
                                 video.openVideoFile("jungle.mp4", video_renderers.get(0).texId());
                                 current_video_renderer = video_renderers.get(0);
+                            }else if (target_name.equals("biosteel") && video_renderers.get(0).texId() != 0) {
+                                video = new ARVideo();
+                                video.openVideoFile("BioSteel.mp4", video_renderers.get(0).texId());
+                                current_video_renderer = video_renderers.get(0);
+                            }else if (target_name.equals("dq") && video_renderers.get(0).texId() != 0) {
+                                video = new ARVideo();
+                                video.openVideoFile("DQ.mp4", video_renderers.get(0).texId());
+                                current_video_renderer = video_renderers.get(0);
+                            }else if (target_name.equals("nike") && video_renderers.get(0).texId() != 0) {
+                                video = new ARVideo();
+                                video.openVideoFile("Nike.mp4", video_renderers.get(0).texId());
+                                current_video_renderer = video_renderers.get(0);
                             }
                         }
                         if (video != null) {

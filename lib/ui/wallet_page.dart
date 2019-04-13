@@ -34,7 +34,7 @@ class WalletPageState extends State<WalletPage>
 
   Widget _buildCard() {
     return new SizedBox(
-      height: 636.0, //设置高度
+      height: MediaQuery.of(context).size.height - 200, //设置高度
       child: new Card(
         elevation: 0, //设置阴影
         shape: const RoundedRectangleBorder(
@@ -130,8 +130,8 @@ class WalletPageState extends State<WalletPage>
 
     if (aHeight == 44) {
       aHeight = 0;
-    }else if (aHeight == 0 || aHeight == 20) {
-      aHeight = 44;
+    } else if (aHeight == 0 || aHeight == 20) {
+      aHeight = 25;
     }
     return new Scaffold(
       body: new Column(
@@ -158,7 +158,6 @@ class WalletPageState extends State<WalletPage>
               ),
             ],
           ),
-
           _buildCard(),
         ],
       ),

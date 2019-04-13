@@ -9,7 +9,6 @@ import 'package:cached_network_image/cached_network_image.dart';
 
 class ProfilePage extends StatefulWidget {
   String user_id;
-
   ProfilePage({this.user_id});
 
   @override
@@ -23,21 +22,22 @@ class ProfilePageState extends State<ProfilePage>
     with AutomaticKeepAliveClientMixin, SingleTickerProviderStateMixin {
   String _fullName;
   String _profilelink;
-  String fullName = "Jian Liao";
 
   loadData() async {
     print(widget.user_id);
-    Response re1 =
-        await Dio().post("https://ez-ar.herokuapp.com/users/getters/getProfile", data: {
+    Response re1 = await Dio()
+        .post("https://ez-ar.herokuapp.com/users/getters/getProfile", data: {
       "method": 'getProfile',
       "user_id": widget.user_id,
     });
 
-    Response re2 =
-        await Dio().post("https://ez-ar.herokuapp.com/users/getters/getUserName", data: {
+    Response re2 = await Dio()
+        .post("https://ez-ar.herokuapp.com/users/getters/getUserName", data: {
       "method": 'getUserName',
       "user_id": widget.user_id,
     });
+
+
 
     var result1 = json.decode(re1.toString());
     var result2 = json.decode(re2.toString());
@@ -126,8 +126,8 @@ class ProfilePageState extends State<ProfilePage>
           onTap: () {
             Navigator.push(context,
                 new MaterialPageRoute(builder: (BuildContext context) {
-                  return new UploadPics();
-                }));
+              return new UploadPics();
+            }));
           },
         ),
       );

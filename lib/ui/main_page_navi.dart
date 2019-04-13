@@ -5,9 +5,15 @@ import 'package:ezar/ui/wallet_page.dart';
 import 'package:ezar/ui/profile_page.dart';
 import 'package:ezar/utils/fab_bottom_app_bar.dart';
 import 'package:flutter/services.dart';
+import 'package:dio/dio.dart';
+import 'dart:convert';
+import 'package:flutter/cupertino.dart';
 
 class MainPage extends StatefulWidget {
   String user_id;
+
+  //bool business;
+
   MainPage({this.user_id});
 
   @override
@@ -16,10 +22,36 @@ class MainPage extends StatefulWidget {
 
 class _MainPageState extends State<MainPage>
     with SingleTickerProviderStateMixin {
+  bool business = false;
   int _currentIndex = 0;
   var _controller = PageController(
     initialPage: 0,
   );
+
+  loadData() async {
+    print(widget.user_id);
+
+    Response re3 = await Dio()
+        .post("https://ez-ar.herokuapp.com/users/getters/business", data: {
+      "user_id": widget.user_id,
+    });
+
+    var result3 = re3.toString();
+    setState(() {
+      print(result3);
+      if (result3 == "Yes") {
+        business = true;
+      } else {
+        business = false;
+      }
+    });
+  }
+
+  @override
+  void initState() {
+    loadData();
+    super.initState();
+  }
 
   @override
   void dispose() {
@@ -34,10 +66,14 @@ class _MainPageState extends State<MainPage>
       body: PageView(
         controller: _controller,
         children: <Widget>[
-          ProfilePage(user_id: widget.user_id,),
+          ProfilePage(
+            user_id: widget.user_id,
+          ),
           WalletPage(),
           HistoryPage(),
-          SettingsPage()
+          SettingsPage(
+            busi: business,
+          )
         ],
         physics: NeverScrollableScrollPhysics(),
       ),
