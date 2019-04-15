@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:flutter_page_indicator/flutter_page_indicator.dart';
@@ -7,11 +9,32 @@ import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:ezar/ui/product_details_page.dart';
+import 'package:path_provider/path_provider.dart';
 
 class PicSwiper extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     return _PicSwiperState();
+  }
+}
+
+class ImageJSON {
+  final String IDPicsName;
+  final String IDPicsPath;
+  final String VideoLink;
+
+  ImageJSON({this.IDPicsName, this.IDPicsPath, this.VideoLink});
+
+  factory ImageJSON.fromJson(Map<String, dynamic> json) {
+    return ImageJSON(
+      IDPicsName: json['name'],
+      IDPicsPath: json['path'],
+      VideoLink: json['link'],
+    );
+  }
+  @override
+  String toString() {
+    return '{"name": "$IDPicsName", "path": "$IDPicsPath", "link": "$VideoLink"}';
   }
 }
 
@@ -35,12 +58,54 @@ class _PicSwiperState extends State<PicSwiper>
   CustomLayoutOption customLayoutOption;
   SwiperController _controller;
   List Ads = [];
+  List<ImageJSON> JSON = [];
 
   loadData() async {
     Response re = await Dio().get('http://ez-ar.herokuapp.com/users/json');
     var result = json.decode(re.toString());
+    List ImagePath = [];
+
+    Directory dir = await getApplicationDocumentsDirectory();
+
+    var imageStream = new Stream.fromIterable(result);
+
+    await for (var image in imageStream) {
+      String path = dir.path + "/" + image['pic_id'].toString() + ".jpg";
+
+      File imageFile = new File(path);
+      bool exist = await imageFile.exists();
+      if (exist == false) {
+        await Dio().download(image['pic_link'], path);
+        ImagePath.add(path);
+        var imageJSON = new ImageJSON(
+            IDPicsName: image['pic_id'].toString(),
+            IDPicsPath: path,
+            VideoLink: image['res_link']);
+        JSON.add(imageJSON);
+
+      } else {
+        ImagePath.add(path);
+        var imageJSON = new ImageJSON(
+            IDPicsName: image['pic_id'].toString(),
+            IDPicsPath: path,
+            VideoLink: image['res_link']);
+        JSON.add(imageJSON);
+      }
+    }
+
+    //Write JSON file
+    String path = dir.absolute.path + "/json.json";
+    File JSONFile = new File (path);
+
+    await JSONFile.writeAsString(JSON.toString());
+
+    print(JSON.toString());
+    print(path);
+    print("123");
+    print(await JSONFile.exists());
+
     setState(() {
-      Ads = result;
+      Ads = ImagePath;
       _itemCount = Ads.length;
       customLayoutOption = new CustomLayoutOption(startIndex: -1, stateCount: 3)
           .addRotate([-25.0 / 180, 0.0, 25.0 / 180]).addTranslate([
@@ -68,23 +133,25 @@ class _PicSwiperState extends State<PicSwiper>
 
   @override
   void initState() {
-
-
     loadData();
-
-    //super.initState();
+    super.initState();
   }
 
   Widget _buildItem(BuildContext context, int index) {
     return ClipRRect(
-        borderRadius: new BorderRadius.all(new Radius.circular(_radius)),
-        child: new CachedNetworkImage(
-          imageUrl: Ads[index]['pic_link'],
-          //imageUrl: "http://salvidatech.com/IDPics/forests.jpg",
-          placeholder: (context, url) => new CircularProgressIndicator(),
-          errorWidget: (context, url, error) => new Icon(Icons.error),
-          fit: BoxFit.fill,
-        ));
+      borderRadius: new BorderRadius.all(new Radius.circular(_radius)),
+//        child: new CachedNetworkImage(
+//          imageUrl: Ads[index]['pic_link'],
+//          //imageUrl: "http://salvidatech.com/IDPics/forests.jpg",
+//          placeholder: (context, url) => new CircularProgressIndicator(),
+//          errorWidget: (context, url, error) => new Icon(Icons.error),
+//          fit: BoxFit.fill,
+//        )
+      child: new Image.asset(
+        Ads[index],
+        fit: BoxFit.fill,
+      ),
+    );
   }
 
   Widget buildSwiper() {
@@ -107,12 +174,12 @@ class _PicSwiperState extends State<PicSwiper>
 //          );
 //        }));
 //      },
-      onTap: (int index){
-        Navigator.push(context, new MaterialPageRoute(builder: (BuildContext context){
+      onTap: (int index) {
+        Navigator.push(context,
+            new MaterialPageRoute(builder: (BuildContext context) {
           print(json.encode(Ads[index]).toString());
-          return new ProductDetails(ads:json.encode(Ads[index]).toString());
+          return new ProductDetails(ads: json.encode(Ads[index]).toString());
         }));
-
       },
       customLayoutOption: customLayoutOption,
       fade: _fade,
@@ -146,7 +213,7 @@ class _PicSwiperState extends State<PicSwiper>
 
   @override
   Widget build(BuildContext context) {
-    if(Ads.length!=0){
+    if (Ads.length != 0) {
       return new Column(
         children: <Widget>[
           new SizedBox(height: 15),
@@ -160,12 +227,11 @@ class _PicSwiperState extends State<PicSwiper>
           new SizedBox(height: 15),
         ],
       );
-    }else{
+    } else {
       return new Center(
         child: new Text("Loading..."),
       );
     }
-
   }
 
   @override

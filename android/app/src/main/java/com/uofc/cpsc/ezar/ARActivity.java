@@ -16,6 +16,7 @@ import android.os.Bundle;
 //import android.support.annotation.NonNull;
 //import android.support.v7.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -26,7 +27,9 @@ import android.util.Log;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
+
 import cn.easyar.Engine;
+
 import static android.content.ContentValues.TAG;
 
 public class ARActivity extends Activity {
@@ -36,14 +39,12 @@ public class ARActivity extends Activity {
     private GLView glView;
 
 
-
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
 
-        if(hasNavBar(this)){
+        if (hasNavBar(this)) {
             hideBottomUIMenu();
         }
 
@@ -54,7 +55,9 @@ public class ARActivity extends Activity {
             Log.e("HelloAR", "Initialization Failed.");
         }
 
-        glView = new GLView(this);
+        String text = getIntent().getStringExtra(VALUE);
+
+        glView = new GLView(this, text);
 
         requestCameraPermission(new PermissionCallback() {
             @Override
@@ -71,7 +74,7 @@ public class ARActivity extends Activity {
     /**
      * 隐藏虚拟按键，并且全屏
      */
-    protected void hideBottomUIMenu(){
+    protected void hideBottomUIMenu() {
         //隐藏虚拟按键，并且全屏
         if (Build.VERSION.SDK_INT > 11 && Build.VERSION.SDK_INT < 19) { // lower api
             View v = this.getWindow().getDecorView();
@@ -92,6 +95,7 @@ public class ARActivity extends Activity {
 
     /**
      * 检查是否存在虚拟按键栏
+     *
      * @param context
      * @return
      */
@@ -115,6 +119,7 @@ public class ARActivity extends Activity {
 
     /**
      * 判断虚拟按键栏是否重写
+     *
      * @return
      */
     private static String getNavBarOverride() {
@@ -132,17 +137,17 @@ public class ARActivity extends Activity {
     }
 
 
-
-    private interface PermissionCallback
-    {
+    private interface PermissionCallback {
         void onSuccess();
+
         void onFailure();
     }
+
     private HashMap<Integer, PermissionCallback> permissionCallbacks = new HashMap<Integer, PermissionCallback>();
     private int permissionRequestCodeSerial = 0;
+
     @TargetApi(23)
-    private void requestCameraPermission(PermissionCallback callback)
-    {
+    private void requestCameraPermission(PermissionCallback callback) {
         if (Build.VERSION.SDK_INT >= 23) {
             if (checkSelfPermission(Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
                 int requestCode = permissionRequestCodeSerial;
@@ -158,8 +163,7 @@ public class ARActivity extends Activity {
     }
 
     @Override
-    public void onRequestPermissionsResult(int requestCode,  String[] permissions, int[] grantResults)
-    {
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         if (permissionCallbacks.containsKey(requestCode)) {
             PermissionCallback callback = permissionCallbacks.get(requestCode);
             permissionCallbacks.remove(requestCode);
@@ -178,23 +182,25 @@ public class ARActivity extends Activity {
     }
 
     @Override
-    protected void onResume()
-    {
-        if(hasNavBar(this)){
+    protected void onResume() {
+        if (hasNavBar(this)) {
             hideBottomUIMenu();
         }
         Log.e(TAG, "-------- onResume: --------");
         super.onResume();
-        if (glView != null) { glView.onResume(); }
+        if (glView != null) {
+            glView.onResume();
+        }
     }
 
     @Override
-    protected void onPause()
-    {
-        if(hasNavBar(this)){
+    protected void onPause() {
+        if (hasNavBar(this)) {
             hideBottomUIMenu();
         }
-        if (glView != null) { glView.onPause(); }
+        if (glView != null) {
+            glView.onPause();
+        }
         super.onPause();
     }
 
@@ -226,7 +232,7 @@ public class ARActivity extends Activity {
 
     @Override
     public void onBackPressed() {
-        if(hasNavBar(this)){
+        if (hasNavBar(this)) {
             hideBottomUIMenu();
         }
         Log.e(TAG, "-------- onBackPressed: --------");

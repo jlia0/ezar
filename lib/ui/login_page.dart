@@ -347,28 +347,41 @@ class _LoginPageState extends State<LoginPage>
                               "pwd": loginPasswordController.text
                             });
 
-//                        re = await Dio().post(
-//                            "https://ez-ar.herokuapp.com/users/getters/getUserID",
-//                            data: {
-//                              "email": loginEmailController.text,
-//                            });
-
-
                         if (response.toString().isNotEmpty) {
-                          if (response.toString() != 'Password is not correct') {
-                            print('Email is:' + loginEmailController.text);
-                            print(
-                                'Password is:' + loginPasswordController.text);
-                            print('Login Action: ' + response.toString());
+                          switch (response.toString()) {
+                            case 'Password is not correct':
+                              {
+                                showInSnackBar("Password is not correct");
+                                break;
+                              }
+                            case 'Account does not exist':
+                              {
+                                showInSnackBar("Account does not exist");
+                                break;
+                              }
+                            case 'error':
+                              {
+                                showInSnackBar("SQL Query Error");
+                                break;
+                              }
+                            default:
+                              {
+                                print('Email is:' + loginEmailController.text);
+                                print('Password is:' +
+                                    loginPasswordController.text);
+                                print('Login Action: ' + response.toString());
 //                            print('Login userid: ' + re.toString());
-                            showInSnackBar("Login Success");
-                            Navigator.pushAndRemoveUntil(
-                                context,
-                                new MaterialPageRoute(
-                                    builder: (context) => new MainPage(user_id:response.toString())), (route) => route == null);
+
+                                Navigator.pushAndRemoveUntil(
+                                    context,
+                                    new MaterialPageRoute(
+                                        builder: (context) => new MainPage(
+                                            user_id: response.toString())),
+                                    (route) => route == null);
+                              }
                           }
                         } else {
-                          showInSnackBar("Login Failed");
+                          showInSnackBar("Login Failed! Empty Return!");
                         }
                       }
 

@@ -94,6 +94,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>flutter_image_compress.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>multi_image_picker.xcscheme</key>
 		<dict>
 			<key>isShown</key>

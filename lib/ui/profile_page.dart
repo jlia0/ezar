@@ -1,14 +1,21 @@
+import 'dart:io';
+import 'dart:typed_data';
+
 import 'package:flutter/material.dart';
 import 'package:ezar/style/theme.dart' as MTheme;
 import 'package:ezar/utils/swiper.dart';
 import 'package:ezar/ui/upload_pics_page.dart';
-import 'package:dio/dio.dart';
 import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:transparent_image/transparent_image.dart';
+import 'package:dio/dio.dart';
+import 'package:http/http.dart' as http;
 
 class ProfilePage extends StatefulWidget {
   String user_id;
+
   ProfilePage({this.user_id});
 
   @override
@@ -37,24 +44,24 @@ class ProfilePageState extends State<ProfilePage>
       "user_id": widget.user_id,
     });
 
-
-
     var result1 = json.decode(re1.toString());
     var result2 = json.decode(re2.toString());
     setState(() {
-      print(result1);
-      print(result2);
       _fullName = result2['username'];
       _profilelink = result1['profilepicture'];
-      print(_fullName);
-      print(_profilelink);
     });
   }
 
   @override
   void initState() {
-    loadData();
-    //super.initState();
+    if (_fullName == null) {
+      loadData();
+    } else {
+      print(_fullName);
+      print(_profilelink);
+    }
+
+    super.initState();
   }
 
   @override
@@ -371,7 +378,13 @@ class ProfilePageState extends State<ProfilePage>
               child: new TabBarView(
                 children: <Widget>[
                   new PicSwiper(),
-                  new Center(child: new Text('Tab2')),
+                  new Column(
+                    children: <Widget>[
+                      new FloatingActionButton(onPressed: () {
+
+                      }),
+                    ],
+                  ),
                 ],
               ),
             ),

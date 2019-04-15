@@ -2,7 +2,10 @@ package com.uofc.cpsc.ezar.plugin;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.util.Log;
+
 import com.uofc.cpsc.ezar.ARActivity;
+
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.PluginRegistry;
@@ -34,8 +37,13 @@ public class JumpToAR implements MethodChannel.MethodCallHandler {
         //接收来自flutter的指令oneAct
         if (call.method.equals("interaction")) {
 
+            String text = call.argument("flutter");
+
+            Log.e("JSON", text);
+
             //跳转到指定Activity
             Intent intent = new Intent(activity, ARActivity.class);
+            intent.putExtra(ARActivity.VALUE, text);
             activity.startActivity(intent);
 
             //返回给flutter的参数

@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:ezar/ui/history_page.dart';
 import 'package:ezar/ui/settings_page.dart';
@@ -8,6 +10,7 @@ import 'package:flutter/services.dart';
 import 'package:dio/dio.dart';
 import 'dart:convert';
 import 'package:flutter/cupertino.dart';
+import 'package:path_provider/path_provider.dart';
 
 class MainPage extends StatefulWidget {
   String user_id;
@@ -59,9 +62,16 @@ class _MainPageState extends State<MainPage>
     _controller.dispose();
   }
 
+  Future<void> JumpToAR() async {
+    const demoPlugin = const MethodChannel('demo.plugin');
+    Directory dir = await getApplicationDocumentsDirectory();
+    String path = dir.absolute.path + "/json.json";
+    Map<String, String> map = {"flutter": path};
+    await demoPlugin.invokeMethod('interaction', map);
+  }
+
   @override
   Widget build(BuildContext context) {
-    const demoPlugin = const MethodChannel('demo.plugin');
     return Scaffold(
       body: PageView(
         controller: _controller,
@@ -99,9 +109,7 @@ class _MainPageState extends State<MainPage>
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          demoPlugin.invokeMethod('interaction');
-        },
+        onPressed: () {JumpToAR();},
         tooltip: 'Scanning AR',
         child: Icon(Icons.camera_alt),
         elevation: 2.0,

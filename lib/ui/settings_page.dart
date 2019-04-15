@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ezar/style/theme.dart' as MTheme;
 import 'package:ezar/ui/upload_pics_page.dart';
+import 'package:ezar/ui/login_page.dart';
 
 class SettingsPage extends StatefulWidget {
   bool busi;
@@ -170,7 +171,12 @@ class SettingsPageState extends State<SettingsPage>
             _buildCard("Notifications"),
             _buildCard("Help & Feedback"),
             _buildCard("About"),
-            _buildCard("Logout"),
+            _buildCard("Logout", onTTap: () {
+              Navigator.pushAndRemoveUntil(
+                  context,
+                  new MaterialPageRoute(builder: (context) => new LoginPage()),
+                  (route) => route == null);
+            }),
             _buildCard("Upload Ads", onTTap: () {
               Navigator.push(context,
                   new MaterialPageRoute(builder: (BuildContext context) {
@@ -207,7 +213,12 @@ class SettingsPageState extends State<SettingsPage>
             _buildCard("Notifications"),
             _buildCard("Help & Feedback"),
             _buildCard("About"),
-            _buildCard("Logout"),
+            _buildCard("Logout", onTTap: () {
+              Navigator.pushAndRemoveUntil(
+                  context,
+                  new MaterialPageRoute(builder: (context) => new LoginPage()),
+                  (route) => route == null);
+            }),
           ],
         ),
       );
