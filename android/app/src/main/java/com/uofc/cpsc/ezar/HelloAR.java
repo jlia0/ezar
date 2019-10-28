@@ -500,8 +500,8 @@ public class HelloAR {
 
                         if (mvideo.getType() == VideoType.TYPE_HTTP || mvideo.getType() == VideoType.TYPE_ASSETS) {
                             if (video == null && video_renderers.size() > 0) {
-//                                Log.e("Target Name:", target_name);
-//                                Log.e("Index", ":" + getRenderIndex(target_name));
+                                Log.e("Target Name:", target_name);
+                                Log.e("Index", ":" + getRenderIndex(target_name));
                                 VideoRenderer videoRender = video_renderers.get(getRenderIndex(target_name));
                                 if (videoRender.texId() != 0) {
                                     video = new ARVideo();

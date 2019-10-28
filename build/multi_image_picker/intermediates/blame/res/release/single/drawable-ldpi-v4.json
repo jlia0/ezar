@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/drawable-ldpi-v4/ic_add_a_photo_gray_100dp.png",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-ldpi-v4/ic_add_a_photo_gray_100dp.png"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/drawable-ldpi-v4/ic_photo_library_gray_100dp.png",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-ldpi-v4/ic_photo_library_gray_100dp.png"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/drawable-ldpi-v4/ic_photo_white_24dp.png",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-ldpi-v4/ic_photo_white_24dp.png"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/drawable-ldpi-v4/ic_add_a_photo_white_24dp.png",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-ldpi-v4/ic_add_a_photo_white_24dp.png"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/drawable-ldpi-v4/ic_arrow_back_white_24dp.png",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-ldpi-v4/ic_arrow_back_white_24dp.png"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/drawable-ldpi-v4/ic_done_white_24dp.png",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-ldpi-v4/ic_done_white_24dp.png"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/8d93206a8deeab63d766c7ccc0638fb6/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/33f5499330a128d0a66e49626335ca5a/res/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/33f5499330a128d0a66e49626335ca5a/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/33f5499330a128d0a66e49626335ca5a/res/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/6bd4148becfc41da633f3e647842709d/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/drawable-v21/design_password_eye.xml",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/6bd4148becfc41da633f3e647842709d/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/33f5499330a128d0a66e49626335ca5a/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/drawable-v21/avd_show_password.xml",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/6bd4148becfc41da633f3e647842709d/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/33f5499330a128d0a66e49626335ca5a/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/drawable-v21/avd_hide_password.xml",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/6bd4148becfc41da633f3e647842709d/res/drawable-v21/avd_hide_password.xml"
+    }
+]

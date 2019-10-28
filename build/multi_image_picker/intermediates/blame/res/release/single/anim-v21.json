@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/6bd4148becfc41da633f3e647842709d/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/6bd4148becfc41da633f3e647842709d/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    }
+]

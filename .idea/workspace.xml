@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5bba3e6-e572-4086-951f-81af46d2e590" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_21_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_30_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_21_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_30_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_21_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_30_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/OnTargetStatusChangeListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/VideoStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/data/NameVideoMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/data/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/data/VideoType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -34,406 +18,28 @@
       <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/caches/gradle_models.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_exifinterface_exifinterface_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_exifinterface_exifinterface_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_0_alpha3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_0_alpha3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_0_alpha3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_0_alpha3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_test_monitor_1_1_0_alpha3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_test_monitor_1_1_0_alpha3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_test_runner_1_1_0_alpha3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_test_runner_1_1_0_alpha3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_9_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_9_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_9_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_9_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_16_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_16_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_android_gms_play_services_base_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_android_gms_play_services_base_16_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_api_16_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_api_16_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_base_16_0_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_base_16_0_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_16_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_16_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_16_0_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_16_0_4_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_16_2_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_16_2_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_firebase_firebase_common_16_0_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_firebase_firebase_common_16_0_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_firebase_firebase_core_16_0_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_firebase_firebase_core_16_0_4_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_firebase_firebase_iid_17_0_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_firebase_firebase_iid_17_0_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_16_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_17_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_17_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_impl_17_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_impl_17_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_firebase_firebase_storage_16_0_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_google_firebase_firebase_storage_16_0_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_sangcomz_FishBun_0_8_8_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_sangcomz_FishBun_0_8_8_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_zzhoujay_materialcolors_materialcolors_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/libraries/Gradle__com_zzhoujay_materialcolors_materialcolors_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/ARActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/ARActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/GLView.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/GLView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/BioSteel.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/DQ.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/Nike.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/argame00.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/biosteel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/dq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/forests.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/forests.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/idback.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/jungle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/jungle.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/namecard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/nike.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/targets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/transparentvideo.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/assets/video.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/HelloAR.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/HelloAR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/plugin/JumpToAR.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/plugin/JumpToAR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/app.dill.track.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ezar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ezar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/App.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/App.framework/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/App.framework/App" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/BSGridCollectionViewLayout/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/BSGridCollectionViewLayout/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/BSGridCollectionViewLayout/Pod/Classes/GridCollectionViewLayout.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/BSGridCollectionViewLayout/Pod/Classes/GridCollectionViewLayout.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/BSGridCollectionViewLayout/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/BSGridCollectionViewLayout/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/BSImageView/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/BSImageView/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/BSImageView/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/BSImageView/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/BSImageView/Source/BSImageView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/BSImageView/Source/BSImageView.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/BSImageView/Source/ImageViewLayout.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/BSImageView/Source/ImageViewLayout.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FMDB/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/README.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FMDB/README.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDB.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDB.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDatabase.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDatabase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDatabase.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDatabase.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDatabaseAdditions.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDatabaseAdditions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDatabaseAdditions.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMDatabaseAdditions.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMResultSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMResultSet.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMResultSet.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FMDB/src/fmdb/FMResultSet.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseAuthInterop/Interop/Auth/Public/FIRAuthInterop.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseAuthInterop/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseAuthInterop/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseAuthInterop/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseAuthInterop/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRAnalyticsConfiguration.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRAnalyticsConfiguration.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRApp.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRApp.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRAppAssociationRegistration.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRAppAssociationRegistration.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRBundleUtil.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRBundleUtil.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRComponent.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRComponent.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRComponentContainer.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRComponentContainer.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRComponentType.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRComponentType.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRConfiguration.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRConfiguration.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRDependency.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRDependency.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRErrors.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRErrors.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRLogger.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRLogger.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIROptions.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIROptions.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRVersion.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/FIRVersion.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRAnalyticsConfiguration+Internal.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRAnalyticsConfiguration+Internal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRAppAssociationRegistration.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRAppAssociationRegistration.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRAppInternal.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRAppInternal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRBundleUtil.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRBundleUtil.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentContainer.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentContainer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentContainerInternal.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentContainerInternal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentType.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentType.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRDependency.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRDependency.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRErrorCode.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRErrorCode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRErrors.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRLibrary.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRLogger.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRLogger.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIROptionsInternal.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIROptionsInternal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRVersion.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRVersion.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Public/FIRAnalyticsConfiguration.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Public/FIRAnalyticsConfiguration.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseCore/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseCore/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRIMessageCode.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRIMessageCode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceID+Private.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceID+Private.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceID+Private.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceID+Private.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceID+Testing.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceID+Testing.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceID.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceID.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAPNSInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAPNSInfo.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAPNSInfo.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAPNSInfo.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthKeyChain.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthKeyChain.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthKeyChain.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthKeyChain.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthService.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthService.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthService.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthService.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDBackupExcludedPlist.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDBackupExcludedPlist.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDBackupExcludedPlist.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDBackupExcludedPlist.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinPreferences+Internal.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinPreferences+Internal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinPreferences+Internal.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinPreferences+Internal.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinPreferences.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinPreferences.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinPreferences.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinPreferences.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinPreferences_Private.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinPreferences_Private.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinService.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinService.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinService.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinService.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinStore.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinStore.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinStore.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinStore.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCombinedHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCombinedHandler.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCombinedHandler.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCombinedHandler.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDConstants.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDConstants.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDConstants.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDConstants.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDDefines.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDDefines.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeyPair.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeyPair.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeyPair.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeyPair.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeyPairStore.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeyPairStore.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeyPairStore.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeyPairStore.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeyPairUtilities.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeyPairUtilities.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeyPairUtilities.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeyPairUtilities.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeychain.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeychain.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeychain.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDKeychain.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDLogger.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDLogger.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDLogger.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDLogger.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDStore.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDStore.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDStore.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDStore.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDStringEncoding.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDStringEncoding.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDStringEncoding.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDStringEncoding.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenDeleteOperation.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenDeleteOperation.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenDeleteOperation.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenDeleteOperation.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenFetchOperation.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenFetchOperation.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenFetchOperation.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenFetchOperation.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenInfo.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenInfo.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenInfo.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenManager.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenManager.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenOperation+Private.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenOperation+Private.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenOperation.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenOperation.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenOperation.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenOperation.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenStore.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenStore.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenStore.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenStore.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDURLQueryItem.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDURLQueryItem.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDURLQueryItem.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDURLQueryItem.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDUtilities.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDUtilities.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDUtilities.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDUtilities.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDVersionUtilities.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDVersionUtilities.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDVersionUtilities.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDVersionUtilities.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/NSError+FIRInstanceID.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/NSError+FIRInstanceID.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/NSError+FIRInstanceID.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/NSError+FIRInstanceID.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/Public/FIRInstanceID.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/Public/FIRInstanceID.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/Public/FirebaseInstanceID.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/Firebase/InstanceID/Public/FirebaseInstanceID.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseInstanceID/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorage.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorage.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageComponent.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageComponent.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageConstants.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageConstants.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageDeleteTask.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageDeleteTask.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageDownloadTask.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageDownloadTask.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageErrors.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageErrors.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageGetDownloadURLTask.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageGetDownloadURLTask.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageGetMetadataTask.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageGetMetadataTask.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageMetadata.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageMetadata.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageObservableTask.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageObservableTask.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStoragePath.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStoragePath.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageReference.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageReference.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageTask.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageTask.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageTaskSnapshot.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageTaskSnapshot.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageTokenAuthorizer.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageTokenAuthorizer.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageUpdateMetadataTask.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageUpdateMetadataTask.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageUploadTask.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageUploadTask.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageUtils.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/FIRStorageUtils.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageConstants_Private.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageConstants_Private.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageDeleteTask.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageDeleteTask.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageDownloadTask_Private.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageDownloadTask_Private.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageErrors.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageErrors.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageGetDownloadURLTask.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageGetDownloadURLTask.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageGetDownloadURLTask_Private.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageGetDownloadURLTask_Private.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageGetMetadataTask.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageGetMetadataTask.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageMetadata_Private.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageMetadata_Private.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageObservableTask_Private.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageObservableTask_Private.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStoragePath.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStoragePath.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageReference_Private.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageReference_Private.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageTaskSnapshot_Private.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageTaskSnapshot_Private.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageTask_Private.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageTask_Private.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageTokenAuthorizer.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageTokenAuthorizer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageUpdateMetadataTask.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageUpdateMetadataTask.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageUploadTask_Private.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageUploadTask_Private.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageUtils.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorageUtils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorage_Private.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Private/FIRStorage_Private.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorage.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorage.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageConstants.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageConstants.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageDownloadTask.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageDownloadTask.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageMetadata.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageMetadata.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageObservableTask.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageObservableTask.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageReference.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageReference.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageTask.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageTask.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageTaskSnapshot.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageTaskSnapshot.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageUploadTask.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FIRStorageUploadTask.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FirebaseStorage.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/Firebase/Storage/Public/FirebaseStorage.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/FirebaseStorage/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/Source/GTMSessionFetcher.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/Source/GTMSessionFetcher.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/Source/GTMSessionFetcher.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/Source/GTMSessionFetcher.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/Source/GTMSessionFetcherLogging.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/Source/GTMSessionFetcherLogging.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/Source/GTMSessionFetcherLogging.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/Source/GTMSessionFetcherLogging.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/Source/GTMSessionFetcherService.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/Source/GTMSessionFetcherService.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/Source/GTMSessionFetcherService.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/Source/GTMSessionFetcherService.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/Source/GTMSessionUploadFetcher.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/Source/GTMSessionUploadFetcher.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/Source/GTMSessionUploadFetcher.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GTMSessionFetcher/Source/GTMSessionUploadFetcher.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/GULAppDelegateSwizzler.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/GULAppDelegateSwizzler.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Internal/GULAppDelegateSwizzler_Private.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Internal/GULAppDelegateSwizzler_Private.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Private/GULAppDelegateSwizzler.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Private/GULAppDelegateSwizzler.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Common/GULLoggerCodes.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Common/GULLoggerCodes.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Environment/third_party/GULAppEnvironmentUtil.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Environment/third_party/GULAppEnvironmentUtil.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Environment/third_party/GULAppEnvironmentUtil.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Environment/third_party/GULAppEnvironmentUtil.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Logger/GULLogger.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Logger/GULLogger.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Logger/Private/GULLogger.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Logger/Private/GULLogger.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Logger/Public/GULLoggerLevel.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Logger/Public/GULLoggerLevel.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/MethodSwizzler/GULSwizzler.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/MethodSwizzler/GULSwizzler.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/MethodSwizzler/Private/GULOriginalIMPConvenienceMacros.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/MethodSwizzler/Private/GULOriginalIMPConvenienceMacros.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/MethodSwizzler/Private/GULSwizzler.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/MethodSwizzler/Private/GULSwizzler.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/NSData+zlib/GULNSData+zlib.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/NSData+zlib/GULNSData+zlib.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/NSData+zlib/GULNSData+zlib.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/NSData+zlib/GULNSData+zlib.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/GULMutableDictionary.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/GULMutableDictionary.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/GULNetwork.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/GULNetwork.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/GULNetworkConstants.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/GULNetworkConstants.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/GULNetworkURLSession.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/GULNetworkURLSession.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULMutableDictionary.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULMutableDictionary.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetwork.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetwork.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkConstants.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkConstants.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkLoggerProtocol.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkLoggerProtocol.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkMessageCode.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkMessageCode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkURLSession.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Network/Private/GULNetworkURLSession.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Reachability/GULReachabilityChecker+Internal.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Reachability/GULReachabilityChecker+Internal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Reachability/GULReachabilityChecker.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Reachability/GULReachabilityChecker.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Reachability/Private/GULReachabilityChecker.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Reachability/Private/GULReachabilityChecker.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Reachability/Private/GULReachabilityMessageCode.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/Reachability/Private/GULReachabilityMessageCode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/UserDefaults/GULUserDefaults.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/UserDefaults/GULUserDefaults.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/UserDefaults/Private/GULUserDefaults.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/GoogleUtilities/UserDefaults/Private/GULUserDefaults.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/GoogleUtilities/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Local Podspecs/Flutter.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Local Podspecs/Flutter.podspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Local Podspecs/firebase_core.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Local Podspecs/firebase_core.podspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Local Podspecs/firebase_storage.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Local Podspecs/firebase_storage.podspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Local Podspecs/multi_image_picker.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Local Podspecs/multi_image_picker.podspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Local Podspecs/path_provider.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Local Podspecs/path_provider.podspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Local Podspecs/sqflite.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Local Podspecs/sqflite.podspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Manifest.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/jianliao.xcuserdatad/xcschemes/Pods-Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/jianliao.xcuserdatad/xcschemes/Pods-Runner.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/jianliao.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/jianliao.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Firebase/Firebase.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Firebase/Firebase.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAnalytics/FirebaseAnalytics.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAnalytics/FirebaseAnalytics.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAuthInterop/FirebaseAuthInterop.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAuthInterop/FirebaseAuthInterop.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseCore/FirebaseCore-dummy.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseCore/FirebaseCore-dummy.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseCore/FirebaseCore.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseCore/FirebaseCore.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseInstanceID/FirebaseInstanceID-dummy.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseInstanceID/FirebaseInstanceID-dummy.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseInstanceID/FirebaseInstanceID.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseInstanceID/FirebaseInstanceID.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseStorage/FirebaseStorage-dummy.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseStorage/FirebaseStorage-dummy.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseStorage/FirebaseStorage.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseStorage/FirebaseStorage.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Flutter/Flutter.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Flutter/Flutter.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-dummy.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-dummy.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleAppMeasurement/GoogleAppMeasurement.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleAppMeasurement/GoogleAppMeasurement.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleUtilities/GoogleUtilities-dummy.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleUtilities/GoogleUtilities-dummy.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleUtilities/GoogleUtilities-prefix.pch" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleUtilities/GoogleUtilities-prefix.pch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleUtilities/GoogleUtilities.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleUtilities/GoogleUtilities.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-acknowledgements.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-acknowledgements.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-dummy.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-dummy.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-umbrella.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-umbrella.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.modulemap" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.modulemap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_core/firebase_core-dummy.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_core/firebase_core-dummy.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_core/firebase_core-prefix.pch" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_core/firebase_core-prefix.pch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_core/firebase_core.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_core/firebase_core.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_storage/firebase_storage-dummy.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_storage/firebase_storage-dummy.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_storage/firebase_storage-prefix.pch" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_storage/firebase_storage-prefix.pch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_storage/firebase_storage.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_storage/firebase_storage.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/nanopb/nanopb-dummy.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/nanopb/nanopb-dummy.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/nanopb/nanopb-prefix.pch" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/nanopb/nanopb-prefix.pch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/nanopb/nanopb.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/nanopb/nanopb.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/nanopb/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/nanopb/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/nanopb/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/nanopb/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/nanopb/pb.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/nanopb/pb.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/nanopb/pb_common.c" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/nanopb/pb_common.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/nanopb/pb_common.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/nanopb/pb_common.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/nanopb/pb_decode.c" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/nanopb/pb_decode.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/nanopb/pb_decode.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/nanopb/pb_decode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/nanopb/pb_encode.c" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/nanopb/pb_encode.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/nanopb/pb_encode.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/nanopb/pb_encode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner-Bridging-Header.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner-Bridging-Header.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcuserdata/jianliao.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcuserdata/jianliao.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcuserdata/jianliao.xcuserdatad/WorkspaceSettings.xcsettings" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcuserdata/jianliao.xcuserdatad/WorkspaceSettings.xcsettings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/AppDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/AppDelegate.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/AppDelegate.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/main.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/ServiceDefinitions.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/ServiceDefinitions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Swift.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/login_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/login_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/main_page_navi.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/main_page_navi.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/product_details_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/product_details_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/profile_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/profile_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/settings_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/settings_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/upload_pics_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/upload_pics_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/asset_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/asset_view.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/swiper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/swiper.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -466,24 +72,25 @@
     <session id="308091311">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="33" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="3" />
-          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.16" value="4" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="3" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -494,7 +101,7 @@
           <entry key="java" value="191" />
           <entry key="m" value="13" />
           <entry key="plist" value="1" />
-          <entry key="txt" value="72" />
+          <entry key="txt" value="112" />
           <entry key="xml" value="11" />
           <entry key="yaml" value="34" />
         </counts>
@@ -505,7 +112,7 @@
           <entry key="Groovy" value="1" />
           <entry key="JAVA" value="191" />
           <entry key="ObjectiveC" value="13" />
-          <entry key="PLAIN_TEXT" value="76" />
+          <entry key="PLAIN_TEXT" value="116" />
           <entry key="XML" value="11" />
           <entry key="YAML" value="34" />
         </counts>
@@ -514,34 +121,35 @@
         <counts>
           <entry key="Podfile" value="1" />
           <entry key="bat" value="1" />
-          <entry key="dart" value="78" />
+          <entry key="dart" value="94" />
           <entry key="gradle" value="3" />
           <entry key="h" value="3" />
-          <entry key="java" value="30" />
-          <entry key="jpg" value="27" />
+          <entry key="java" value="35" />
+          <entry key="jpg" value="28" />
           <entry key="json" value="8" />
-          <entry key="lock" value="1" />
-          <entry key="m" value="9" />
+          <entry key="lock" value="2" />
+          <entry key="m" value="10" />
           <entry key="mp4" value="13" />
+          <entry key="packages" value="1" />
           <entry key="plist" value="1" />
           <entry key="properties" value="2" />
           <entry key="swift" value="1" />
           <entry key="xml" value="4" />
-          <entry key="yaml" value="8" />
+          <entry key="yaml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Dart" value="78" />
+          <entry key="Dart" value="94" />
           <entry key="Groovy" value="3" />
-          <entry key="Image" value="27" />
-          <entry key="JAVA" value="30" />
+          <entry key="Image" value="28" />
+          <entry key="JAVA" value="35" />
           <entry key="JSON" value="8" />
-          <entry key="ObjectiveC" value="12" />
-          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="ObjectiveC" value="13" />
+          <entry key="PLAIN_TEXT" value="20" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="4" />
-          <entry key="YAML" value="8" />
+          <entry key="YAML" value="10" />
         </counts>
       </usages-collector>
     </session>
@@ -549,10 +157,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/HelloAR.java">
+        <entry file="file://$PROJECT_DIR$/lib/ui/profile_page.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
+            <state relative-caret-position="781">
+              <caret line="383" selection-start-line="383" selection-end-line="383" />
             </state>
           </provider>
         </entry>
@@ -567,76 +175,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/plugin/JumpToAR.java">
+        <entry file="file://$PROJECT_DIR$/lib/ui/history_page.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/ui/upload_pics_page.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="70" column="39" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/ui/settings_page.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2625">
-              <caret line="178" column="15" selection-start-line="178" selection-start-column="15" selection-end-line="178" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/ui/profile_page.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3180">
-              <caret line="383" selection-start-line="383" selection-end-line="383" />
-              <folding>
-                <element signature="e#4717#4719#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/utils/swiper.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/ui/main_page_navi.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/utils/asset_view.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2415">
-              <caret line="164" column="15" selection-start-line="164" selection-start-column="15" selection-end-line="172" selection-end-column="10" />
+            <state relative-caret-position="735">
+              <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="52" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -644,13 +186,55 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/utils/bubble_indication_painter.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/ui/login_page.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="218" column="19" lean-forward="true" selection-start-line="218" selection-start-column="19" selection-end-line="218" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.packages">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pubspec.lock">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="33" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/style/theme.dart">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -694,13 +278,13 @@
         <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/ui/profile_page.dart" />
         <option value="$PROJECT_DIR$/lib/main.dart" />
-        <option value="$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/HelloAR.java" />
         <option value="$PROJECT_DIR$/lib/ui/main_page_navi.dart" />
         <option value="$PROJECT_DIR$/lib/utils/swiper.dart" />
+        <option value="$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/HelloAR.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="45" />
     <option name="width" value="1680" />
     <option name="height" value="951" />
@@ -713,7 +297,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -724,18 +307,13 @@
             <path>
               <item name="ezar" type="b2602c69:ProjectViewProjectNode" />
               <item name="ezar" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ezar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ezar" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ezar" type="b2602c69:ProjectViewProjectNode" />
               <item name="ezar" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ezar" type="b2602c69:ProjectViewProjectNode" />
@@ -755,6 +333,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -882,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555127358556</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Cloud Recognition">
+      <created>1555320468481</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555320468481</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -895,7 +481,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22832723" />
@@ -906,7 +493,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Build Variants" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.32810867" />
-      <window_info anchor="bottom" id="Run" order="1" visible="true" weight="0.37304077" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.37304077" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.3291536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45245558" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.3291536" />
@@ -935,25 +522,10 @@
     <MESSAGE value="update" />
     <MESSAGE value="Update" />
     <MESSAGE value="Added Assets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Assets" />
+    <MESSAGE value="Added Cloud Recognition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Cloud Recognition" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/jungle.mp4">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/forests.mp4">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/ARVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/transparentvideo.mp4">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/utils/actions.dart" />
     <entry file="file://$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -968,16 +540,6 @@
           <caret line="150" column="13" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/style/theme.dart">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ios/Runner/Info.plist">
       <provider selected="true" editor-type-id="text-editor">
@@ -1054,79 +616,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ui/history_page.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="52" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/BioSteel.mp4">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/utils/bubble_indication_painter.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ui/login_page.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5610">
-          <caret line="374" column="32" selection-start-line="374" selection-start-column="32" selection-end-line="379" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/Runner/AppDelegate.m">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ui/product_details_page.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/argame00.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/GLView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/biosteel.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/dq.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/targets.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/forests.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/nike.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/jungle.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/BioSteel.mp4" />
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/biosteel.jpg" />
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/dq.jpg" />
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/targets.json" />
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/forests.jpg" />
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/nike.jpg" />
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/jungle.jpg" />
     <entry file="file://$USER_HOME$/flutter/bin/cache/dart-sdk/lib/convert/json.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -1134,10 +630,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/ARActivity.java">
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/argame00.jpg" />
+    <entry file="file://$PROJECT_DIR$/lib/ui/upload_pics_page.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3270">
-          <caret line="248" column="9" selection-start-line="248" selection-start-column="9" selection-end-line="248" selection-end-column="9" />
+        <state relative-caret-position="885">
+          <caret line="70" column="39" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui/main_page_navi.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/HelloAR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="129" column="25" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1148,37 +666,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/ARVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/ARActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3270">
+          <caret line="248" column="9" selection-start-line="248" selection-start-column="9" selection-end-line="248" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/GLView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Runner/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui/product_details_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/ui/settings_page.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2625">
-          <caret line="178" column="15" selection-start-line="178" selection-start-column="15" selection-end-line="178" selection-end-column="15" />
+        <state relative-caret-position="780">
+          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/utils/asset_view.dart">
+    <entry file="file://$PROJECT_DIR$/lib/utils/swiper.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2415">
-          <caret line="164" column="15" selection-start-line="164" selection-start-column="15" selection-end-line="172" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+        <state relative-caret-position="945">
+          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ui/profile_page.dart">
+    <entry file="file://$PROJECT_DIR$/lib/utils/fab_bottom_app_bar.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/asset_view.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3180">
-          <caret line="383" selection-start-line="383" selection-end-line="383" />
-          <folding>
-            <element signature="e#4717#4719#0" />
-          </folding>
+        <state relative-caret-position="2415">
+          <caret line="164" column="15" selection-start-line="164" selection-start-column="15" selection-end-line="172" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1189,40 +735,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ui/upload_pics_page.dart">
+    <entry file="file://$PROJECT_DIR$/lib/ui/history_page.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="70" column="39" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="39" />
+        <state relative-caret-position="735">
+          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="52" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui/profile_page.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="781">
+          <caret line="383" selection-start-line="383" selection-end-line="383" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/style/theme.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/uofc/cpsc/ezar/HelloAR.java">
+    <entry file="file://$PROJECT_DIR$/lib/ui/login_page.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
+        <state relative-caret-position="301">
+          <caret line="218" column="19" lean-forward="true" selection-start-line="218" selection-start-column="19" selection-end-line="218" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ui/main_page_navi.dart">
+    <entry file="file://$PROJECT_DIR$/.packages">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/utils/bubble_indication_painter.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/utils/swiper.dart">
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="465">
+          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="33" selection-end-column="14" />
         </state>
       </provider>
     </entry>

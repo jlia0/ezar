@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/layout-sw600dp-v13/mtrl_layout_snackbar.xml",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/6bd4148becfc41da633f3e647842709d/res/layout-sw600dp-v13/mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/multi_image_picker/intermediates/res/merged/release/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/6bd4148becfc41da633f3e647842709d/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    }
+]

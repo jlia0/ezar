@@ -1,0 +1,11 @@
+framework module multi_image_picker {
+  umbrella header "multi_image_picker-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module multi_image_picker.Swift {
+    header "multi_image_picker-Swift.h"
+    requires objc
+}
