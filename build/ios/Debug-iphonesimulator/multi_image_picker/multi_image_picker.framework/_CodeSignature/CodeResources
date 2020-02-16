@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/multi_image_picker-Swift.h</key>
 		<data>
-		14jvxxkMfJ8YJTw+PfJ5dxHPisg=
+		txk2QftHCeuD2kW9wtAz3lcmtjw=
 		</data>
 		<key>Headers/multi_image_picker-umbrella.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+omZXejSgGSjdoAPJxzy0noTMhA=
+		2Mj8urcuC2oflBzOaBCwiMZlj6I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/multi_image_picker.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		QuqZ4RnAA6p69acEpYUzUVL7D1s=
+		EAER2y9P9yW1GJeYpSw/+oeBSac=
 		</data>
 		<key>Modules/multi_image_picker.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		X3JBtmoQ8zmythagr1JU64FAthI=
+		/yGKP7q0gUPoBUtgeG4mgeFrlcQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -50,11 +50,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			14jvxxkMfJ8YJTw+PfJ5dxHPisg=
+			txk2QftHCeuD2kW9wtAz3lcmtjw=
 			</data>
 			<key>hash2</key>
 			<data>
-			iYXVAstPPem2wr+tmdtg8v2oHiJICxfXqmhkmtfu9x8=
+			mZd4s+ubufRKSWAmLEKnCmXA47GKD3FV81GOX3yXuoo=
 			</data>
 		</dict>
 		<key>Headers/multi_image_picker-umbrella.h</key>
@@ -83,22 +83,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QuqZ4RnAA6p69acEpYUzUVL7D1s=
+			EAER2y9P9yW1GJeYpSw/+oeBSac=
 			</data>
 			<key>hash2</key>
 			<data>
-			JzwUEv5StEVaQt2p+4t2w9xz4Fn2RiBGJvG+7MIVYv4=
+			+ZON0RHMtV3vefhiwWK+qa8Ms4paVVqNnHlZYufJR1M=
 			</data>
 		</dict>
 		<key>Modules/multi_image_picker.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X3JBtmoQ8zmythagr1JU64FAthI=
+			/yGKP7q0gUPoBUtgeG4mgeFrlcQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			J312LXcd6sv8XSOjbvUBYHzED5lkwLnMMX9dxcwpRgA=
+			aPtrnxrqlrAtczZMvfKRouX0CEq1PLG7sp88Pqf470o=
 			</data>
 		</dict>
 	</dict>

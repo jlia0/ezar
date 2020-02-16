@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BSGridCollectionViewLayout-Swift.h</key>
 		<data>
-		g5Y9gqpBj/5ch7qXVA/gLuIwQuE=
+		kdjgS2wU1xAyswmdbD9QxD6/8iE=
 		</data>
 		<key>Headers/BSGridCollectionViewLayout-umbrella.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JrtNjQDTVpB5j1+A8lEao3X1RwE=
+		UI+quduRO7ootd85NPmRM/IqVLY=
 		</data>
 		<key>Modules/BSGridCollectionViewLayout.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		aDvaRR/zmLGKH8vr35druIK8nFg=
+		djU4ixMfNfQHv9DqHHDNit8CQm0=
 		</data>
 		<key>Modules/BSGridCollectionViewLayout.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		mD/HytN5p/cqjxmb8ReFoVTksPE=
+		huUOZ5q/2m7wxyXs9+2mvIbqRX8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,11 +35,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			g5Y9gqpBj/5ch7qXVA/gLuIwQuE=
+			kdjgS2wU1xAyswmdbD9QxD6/8iE=
 			</data>
 			<key>hash2</key>
 			<data>
-			avbga0OQOcyeoIL91YDD5fgsLJBWrzKl0nV+XD4mbSo=
+			rhn1D57L4XwoMYb43zZo6QSEHxIIPUYs9lAm5D8xuJs=
 			</data>
 		</dict>
 		<key>Headers/BSGridCollectionViewLayout-umbrella.h</key>
@@ -57,22 +57,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aDvaRR/zmLGKH8vr35druIK8nFg=
+			djU4ixMfNfQHv9DqHHDNit8CQm0=
 			</data>
 			<key>hash2</key>
 			<data>
-			K57fvCe/zSPqeU8jEgPwhKds79W3lsNMKjMPJhSCBU4=
+			7g/pVzZ5HFmqlUpG78Jo+DwurJ3kqCIlRmqiYbxQvI8=
 			</data>
 		</dict>
 		<key>Modules/BSGridCollectionViewLayout.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mD/HytN5p/cqjxmb8ReFoVTksPE=
+			huUOZ5q/2m7wxyXs9+2mvIbqRX8=
 			</data>
 			<key>hash2</key>
 			<data>
-			stt2MNOTG1xHEXCriZmzSolNA3xLIk7DMDg3XIPzo/Y=
+			q7765ESYZCW0D9p9UmP7tS11qqkeLyFQEDFE7SwWIHM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -105,10 +105,10 @@ class ProfilePageState extends State<ProfilePage>
             ),
           ),
           onTap: () {
-            Navigator.push(context,
-                new MaterialPageRoute(builder: (BuildContext context) {
-              return new UploadPics();
-            }));
+//            Navigator.push(context,
+//                new MaterialPageRoute(builder: (BuildContext context) {
+//              return new UploadPics();
+//            }));
           },
         ),
       );
@@ -131,10 +131,10 @@ class ProfilePageState extends State<ProfilePage>
             ),
           ),
           onTap: () {
-            Navigator.push(context,
-                new MaterialPageRoute(builder: (BuildContext context) {
-              return new UploadPics();
-            }));
+//            Navigator.push(context,
+//                new MaterialPageRoute(builder: (BuildContext context) {
+//              return new UploadPics();
+//            }));
           },
         ),
       );

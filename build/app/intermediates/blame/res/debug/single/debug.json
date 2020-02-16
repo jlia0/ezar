@@ -57,7 +57,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_ic_arrow_back_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-mdpi-v4/ic_arrow_back_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-mdpi-v4/ic_arrow_back_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -69,7 +69,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_ic_add_a_photo_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-mdpi-v4/ic_add_a_photo_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-mdpi-v4/ic_add_a_photo_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout_abc_action_bar_up_container.xml.flat",
@@ -89,7 +89,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-anydpi-v21_ic_arrow_back_white_24dp.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-anydpi-v21/ic_arrow_back_white_24dp.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-anydpi-v21/ic_arrow_back_white_24dp.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -105,7 +105,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_normal.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable/common_google_signin_btn_icon_light_normal.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -153,7 +153,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_design_bottom_navigation_item_background.xml.flat",
@@ -177,11 +177,11 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_ic_add_a_photo_gray_100dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-mdpi-v4/ic_add_a_photo_gray_100dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-mdpi-v4/ic_add_a_photo_gray_100dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout_album_item.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/layout/album_item.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/layout/album_item.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
@@ -193,7 +193,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_done_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-xxxhdpi-v4/ic_done_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xxxhdpi-v4/ic_done_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -237,15 +237,15 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_arrow_back_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-xxhdpi-v4/ic_arrow_back_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xxhdpi-v4/ic_arrow_back_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout_header_item.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/layout/header_item.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/layout/header_item.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/color_abc_hint_foreground_material_light.xml.flat",
@@ -265,7 +265,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_photo_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-xxhdpi-v4/ic_photo_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xxhdpi-v4/ic_photo_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -289,11 +289,15 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_ic_done_all_white_24dp.png.flat",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-mdpi-v4/ic_done_all_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-anydpi-v21_ic_photo_white_24dp.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-anydpi-v21/ic_photo_white_24dp.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-anydpi-v21/ic_photo_white_24dp.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_tooltip_frame_light.xml.flat",
@@ -309,7 +313,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_ic_add_a_photo_gray_100dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-hdpi-v4/ic_add_a_photo_gray_100dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-hdpi-v4/ic_add_a_photo_gray_100dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -373,7 +377,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout_design_layout_snackbar_include.xml.flat",
@@ -389,7 +393,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_ic_photo_library_gray_100dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-hdpi-v4/ic_photo_library_gray_100dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-hdpi-v4/ic_photo_library_gray_100dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout_abc_list_menu_item_icon.xml.flat",
@@ -397,7 +401,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/color_common_google_signin_btn_text_light.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/color/common_google_signin_btn_text_light.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/color/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
@@ -441,7 +445,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_photo_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-xhdpi-v4/ic_photo_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xhdpi-v4/ic_photo_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_abc_seekbar_tick_mark_material.xml.flat",
@@ -505,7 +509,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_photo_library_gray_100dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-xxxhdpi-v4/ic_photo_library_gray_100dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xxxhdpi-v4/ic_photo_library_gray_100dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
@@ -545,7 +549,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_focused.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -557,15 +561,15 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_photo_library_gray_100dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-xhdpi-v4/ic_photo_library_gray_100dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xhdpi-v4/ic_photo_library_gray_100dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_focused.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable/common_google_signin_btn_text_light_focused.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout_design_bottom_sheet_dialog.xml.flat",
@@ -601,7 +605,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_add_a_photo_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-xxhdpi-v4/ic_add_a_photo_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xxhdpi-v4/ic_add_a_photo_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_abc_switch_thumb_material.xml.flat",
@@ -640,6 +644,10 @@
         "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/33f5499330a128d0a66e49626335ca5a/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
+        "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-anydpi-v21_ic_done_all_white_24dp.xml.flat",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-anydpi-v21/ic_done_all_white_24dp.xml"
+    },
+    {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/33f5499330a128d0a66e49626335ca5a/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
@@ -649,7 +657,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout_activity_detail_actiivy.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/layout/activity_detail_actiivy.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/layout/activity_detail_actiivy.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -665,7 +673,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-ldpi-v4_ic_photo_library_gray_100dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-ldpi-v4/ic_photo_library_gray_100dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-ldpi-v4/ic_photo_library_gray_100dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -697,7 +705,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/color_common_google_signin_btn_text_dark.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/color/common_google_signin_btn_text_dark.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/color_mtrl_chip_close_icon_tint.xml.flat",
@@ -705,7 +713,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/color_mtrl_tabs_legacy_text_color_selector.xml.flat",
@@ -737,7 +745,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/anim_design_bottom_sheet_slide_out.xml.flat",
@@ -753,7 +761,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-anydpi-v21_ic_add_a_photo_white_24dp.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-anydpi-v21/ic_add_a_photo_white_24dp.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-anydpi-v21/ic_add_a_photo_white_24dp.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/color-v23_abc_tint_btn_checkable.xml.flat",
@@ -769,11 +777,11 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_add_a_photo_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-xxxhdpi-v4/ic_add_a_photo_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xxxhdpi-v4/ic_add_a_photo_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -789,7 +797,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout_activity_photo_album.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/layout/activity_photo_album.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/layout/activity_photo_album.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/interpolator_mtrl_fast_out_slow_in.xml.flat",
@@ -849,15 +857,15 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_arrow_back_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-xhdpi-v4/ic_arrow_back_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xhdpi-v4/ic_arrow_back_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/menu_menu_photo_album.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/menu/menu_photo_album.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/menu/menu_photo_album.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_normal.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable/common_google_signin_btn_text_light_normal.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable/common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -885,7 +893,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-anydpi-v21_ic_add_a_photo_gray_100dp.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-anydpi-v21/ic_add_a_photo_gray_100dp.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-anydpi-v21/ic_add_a_photo_gray_100dp.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/anim_abc_slide_in_top.xml.flat",
@@ -901,7 +909,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_arrow_back_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-xxxhdpi-v4/ic_arrow_back_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xxxhdpi-v4/ic_arrow_back_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -913,7 +921,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_ic_add_a_photo_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-hdpi-v4/ic_add_a_photo_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-hdpi-v4/ic_add_a_photo_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -933,7 +941,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-ldpi-v4_ic_add_a_photo_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-ldpi-v4/ic_add_a_photo_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-ldpi-v4/ic_add_a_photo_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/animator_mtrl_fab_transformation_sheet_collapse_spec.xml.flat",
@@ -941,11 +949,11 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_add_a_photo_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-xhdpi-v4/ic_add_a_photo_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xhdpi-v4/ic_add_a_photo_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/xml_provider_paths.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/xml/provider_paths.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/xml/provider_paths.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/color-v21_abc_btn_colored_borderless_text_material.xml.flat",
@@ -957,7 +965,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-anydpi-v21_ic_photo_library_gray_100dp.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-anydpi-v21/ic_photo_library_gray_100dp.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-anydpi-v21/ic_photo_library_gray_100dp.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
@@ -985,7 +993,11 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_ic_arrow_back_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-hdpi-v4/ic_arrow_back_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-hdpi-v4/ic_arrow_back_white_24dp.png"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_drawable_detail_gradient.xml.flat",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable/drawable_detail_gradient.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -1029,7 +1041,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_abc_spinner_textfield_background_material.xml.flat",
@@ -1037,7 +1049,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-ldpi-v4_ic_photo_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-ldpi-v4/ic_photo_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-ldpi-v4/ic_photo_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
@@ -1097,7 +1109,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/color_common_google_signin_btn_tint.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/color/common_google_signin_btn_tint.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/color/common_google_signin_btn_tint.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -1157,7 +1169,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
@@ -1165,7 +1177,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -1209,7 +1221,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable/common_google_signin_btn_icon_light.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -1221,7 +1233,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
@@ -1265,7 +1277,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-hdpi-v4/common_full_open_on_phone.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-hdpi-v4/common_full_open_on_phone.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -1273,7 +1285,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_ic_done_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-hdpi-v4/ic_done_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-hdpi-v4/ic_done_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/animator_mtrl_fab_transformation_sheet_expand_spec.xml.flat",
@@ -1285,11 +1297,11 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-ldpi-v4_ic_add_a_photo_gray_100dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-ldpi-v4/ic_add_a_photo_gray_100dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-ldpi-v4/ic_add_a_photo_gray_100dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxxhdpi-v4_design_ic_visibility_off.png.flat",
@@ -1305,7 +1317,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_done_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-xhdpi-v4/ic_done_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xhdpi-v4/ic_done_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout_design_navigation_item.xml.flat",
@@ -1333,7 +1345,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-ldpi-v4_ic_arrow_back_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-ldpi-v4/ic_arrow_back_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-ldpi-v4/ic_arrow_back_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/color_mtrl_btn_stroke_color_selector.xml.flat",
@@ -1353,7 +1365,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_ic_photo_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-hdpi-v4/ic_photo_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-hdpi-v4/ic_photo_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout_abc_popup_menu_item_layout.xml.flat",
@@ -1390,6 +1402,10 @@
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout_abc_activity_chooser_view_list_item.xml.flat",
         "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/33f5499330a128d0a66e49626335ca5a/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-ldpi-v4_ic_done_all_white_24dp.png.flat",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-ldpi-v4/ic_done_all_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -1436,6 +1452,10 @@
         "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/33f5499330a128d0a66e49626335ca5a/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
+        "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_done_all_white_24dp.png.flat",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xxhdpi-v4/ic_done_all_white_24dp.png"
+    },
+    {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/color_abc_secondary_text_material_dark.xml.flat",
         "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/33f5499330a128d0a66e49626335ca5a/res/color/abc_secondary_text_material_dark.xml"
     },
@@ -1449,7 +1469,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -1457,7 +1477,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_ic_done_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-mdpi-v4/ic_done_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-mdpi-v4/ic_done_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/interpolator-v21_mtrl_linear_out_slow_in.xml.flat",
@@ -1465,7 +1485,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-hdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -1489,7 +1509,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_ic_photo_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-mdpi-v4/ic_photo_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-mdpi-v4/ic_photo_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -1561,7 +1581,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout_design_navigation_menu.xml.flat",
@@ -1581,11 +1601,11 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_normal.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -1617,7 +1637,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout_thumb_item.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/layout/thumb_item.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/layout/thumb_item.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -1633,7 +1653,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout_activity_photo_picker.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/layout/activity_photo_picker.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/layout/activity_photo_picker.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_abc_tab_indicator_material.xml.flat",
@@ -1645,7 +1665,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_disabled.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable/common_google_signin_btn_text_disabled.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable/common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/color_mtrl_tabs_icon_color_selector_colored.xml.flat",
@@ -1661,7 +1681,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_ic_photo_library_gray_100dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-mdpi-v4/ic_photo_library_gray_100dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-mdpi-v4/ic_photo_library_gray_100dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_design_ic_visibility.png.flat",
@@ -1673,7 +1693,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout_detail_item.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/layout/detail_item.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/layout/detail_item.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -1713,7 +1733,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_add_a_photo_gray_100dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-xxxhdpi-v4/ic_add_a_photo_gray_100dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xxxhdpi-v4/ic_add_a_photo_gray_100dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -1753,7 +1773,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout_activity_ar.xml.flat",
@@ -1785,7 +1805,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/color_abc_tint_edittext.xml.flat",
@@ -1813,11 +1833,11 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -1837,7 +1857,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_focused.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
@@ -1865,11 +1885,11 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_photo_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-xxxhdpi-v4/ic_photo_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xxxhdpi-v4/ic_photo_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_photo_library_gray_100dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-xxhdpi-v4/ic_photo_library_gray_100dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xxhdpi-v4/ic_photo_library_gray_100dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -1881,11 +1901,15 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable/common_google_signin_btn_text_dark.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/33f5499330a128d0a66e49626335ca5a/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_ic_done_all_white_24dp.png.flat",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-hdpi-v4/ic_done_all_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -1909,7 +1933,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -1937,7 +1961,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -1957,11 +1981,11 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-hdpi-v4/googleg_standard_color_18.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-hdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-mdpi-v4/googleg_standard_color_18.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-mdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -1997,7 +2021,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_add_a_photo_gray_100dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-xhdpi-v4/ic_add_a_photo_gray_100dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xhdpi-v4/ic_add_a_photo_gray_100dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -2033,7 +2057,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_done_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-xxhdpi-v4/ic_done_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xxhdpi-v4/ic_done_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout_abc_cascading_menu_item_layout.xml.flat",
@@ -2041,7 +2065,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -2061,7 +2085,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_add_a_photo_gray_100dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-xxhdpi-v4/ic_add_a_photo_gray_100dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xxhdpi-v4/ic_add_a_photo_gray_100dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/animator-v21_design_appbar_state_list_animator.xml.flat",
@@ -2141,7 +2165,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-ldpi-v4_ic_done_white_24dp.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-ldpi-v4/ic_done_white_24dp.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-ldpi-v4/ic_done_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -2224,8 +2248,12 @@
         "source": "/Users/kelvinlew/ezar/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_done_all_white_24dp.png.flat",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xxxhdpi-v4/ic_done_all_white_24dp.png"
+    },
+    {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable/common_google_signin_btn_text_light.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -2245,7 +2273,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_disabled.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable/common_google_signin_btn_icon_disabled.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
@@ -2257,7 +2285,11 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_done_all_white_24dp.png.flat",
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-xhdpi-v4/ic_done_all_white_24dp.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/layout_design_navigation_menu_item.xml.flat",
@@ -2265,7 +2297,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-anydpi-v21_ic_done_white_24dp.xml.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.8.8.aar/8b5b405f493330bb82cb0b34eb1d4e14/res/drawable-anydpi-v21/ic_done_white_24dp.xml"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-FishBun-0.11.2.aar/94c9498762f5be8fb83cc44ebf757358/res/drawable-anydpi-v21/ic_done_white_24dp.xml"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -2297,7 +2329,7 @@
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/Users/kelvinlew/ezar/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",

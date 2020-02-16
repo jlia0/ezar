@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BSImageView-Swift.h</key>
 		<data>
-		t/iCEdjjGRdyIgbtTQZPGNfqdD0=
+		pW3DDRDFW5J4sRBkb1d0OxuveRo=
 		</data>
 		<key>Headers/BSImageView-umbrella.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FQUZySAAZGFgJkZHrUg4zqArYFg=
+		vpw71hcRwesP1yBLZdFgSsEi5+U=
 		</data>
 		<key>Modules/BSImageView.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		CeBRRe02nxBTkrVI9T3MIBGSelA=
+		wGjdy2WOUyUXAAXpnI+pqSfNbIU=
 		</data>
 		<key>Modules/BSImageView.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		F5pNMb6dq91eBntYY7J3Oq0DT64=
+		R/m7xXyxPUbW+8akcxBb3Ixex7U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,11 +35,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t/iCEdjjGRdyIgbtTQZPGNfqdD0=
+			pW3DDRDFW5J4sRBkb1d0OxuveRo=
 			</data>
 			<key>hash2</key>
 			<data>
-			qPd7xe4f5xw+gjCsclVx0+PyMFvChwmQqqib5BHSd5g=
+			App21gI9yY35eCrTEKPgkr5eOe8z2y6A+XLy8NBKGhQ=
 			</data>
 		</dict>
 		<key>Headers/BSImageView-umbrella.h</key>
@@ -57,22 +57,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CeBRRe02nxBTkrVI9T3MIBGSelA=
+			wGjdy2WOUyUXAAXpnI+pqSfNbIU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ctbnH+BaGmaJtBIcwzX/qCt+QrF+uot0o9g0MmhKlLU=
+			t6F71123/CcxRm5jXRKczCy4rOd7uLYx4m6yX6uMZPM=
 			</data>
 		</dict>
 		<key>Modules/BSImageView.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			F5pNMb6dq91eBntYY7J3Oq0DT64=
+			R/m7xXyxPUbW+8akcxBb3Ixex7U=
 			</data>
 			<key>hash2</key>
 			<data>
-			+t47eAosvokeqjfUp28jcSZs4zTSlsBGc0Tu1ojN++A=
+			5CfqmTpjoWlBR/MkaVrnGIwq7SeqVhJegCUw9MSN4Ss=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

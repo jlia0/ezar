@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/16d2c10520f73475d2fad8a3f152b204/res/values-lt/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "217",
-                        "endOffsets": "464"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4059",
-                        "endColumns": "217",
-                        "endOffsets": "4272"
-                    }
-                },
-                {
-                    "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/values-lt/values.xml",
+                    "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/values-lt/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -52,6 +35,23 @@
                         "startOffsets": "2895,3004,3188,3322,3431,3643,3775,3924,4277,4502,4613,4809,4945,5157,5337,5435,5531",
                         "endColumns": "108,183,133,108,211,131,148,134,224,110,195,135,211,179,97,95,118",
                         "endOffsets": "2999,3183,3317,3426,3638,3770,3919,4054,4497,4608,4804,4940,5152,5332,5430,5526,5645"
+                    }
+                },
+                {
+                    "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/9df9f6e09e69107a987f52baf0cca70c/res/values-lt/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "217",
+                        "endOffsets": "464"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4059",
+                        "endColumns": "217",
+                        "endOffsets": "4272"
                     }
                 },
                 {

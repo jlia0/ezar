@@ -8,29 +8,53 @@
 		<data>
 		3ax52BsgH2Jd4nUPadrLI4TH/I0=
 		</data>
-		<key>BSImagePicker.bundle/Albums.storyboardc/Q9l-ou-0o0-view-6nu-Xx-FSD.nib</key>
+		<key>BSImagePicker.bundle/Albums.storyboardc/Q9l-ou-0o0-view-6nu-Xx-FSD.nib/objects-13.0+.nib</key>
 		<data>
-		NRJpgg33BM14rTLNQgCGZ2hX+b8=
+		+0BARQ1n3294YKkzF6a9d3CdLUg=
 		</data>
-		<key>BSImagePicker.bundle/Albums.storyboardc/UITableViewController-Q9l-ou-0o0.nib</key>
+		<key>BSImagePicker.bundle/Albums.storyboardc/Q9l-ou-0o0-view-6nu-Xx-FSD.nib/runtime.nib</key>
 		<data>
-		m75w7mGef3VZ6/QhjJrEpW07DrE=
+		LviyA+uHPVwLxkda1BXoL9byX+k=
 		</data>
-		<key>BSImagePicker.bundle/CameraCell.nib</key>
+		<key>BSImagePicker.bundle/Albums.storyboardc/UITableViewController-Q9l-ou-0o0.nib/objects-13.0+.nib</key>
 		<data>
-		hYMeHY9UerArCjYDJC8zgeeAfCo=
+		Gu7V1A+en1AthyHkD3JZoJw02xA=
+		</data>
+		<key>BSImagePicker.bundle/Albums.storyboardc/UITableViewController-Q9l-ou-0o0.nib/runtime.nib</key>
+		<data>
+		/eAMMqQnClOf6iq7oiK1NY4jWMo=
+		</data>
+		<key>BSImagePicker.bundle/CameraCell.nib/objects-12.3+.nib</key>
+		<data>
+		0qXEeg9Tbi/eBa7U2F+i3DxDQ70=
+		</data>
+		<key>BSImagePicker.bundle/CameraCell.nib/objects-13.0+.nib</key>
+		<data>
+		465ZRXVVL1LrYgqQm74k/x0Uo/E=
+		</data>
+		<key>BSImagePicker.bundle/CameraCell.nib/runtime.nib</key>
+		<data>
+		g1oVoVu0kPIH5v1WHe94fEIE+BE=
 		</data>
 		<key>BSImagePicker.bundle/Info.plist</key>
 		<data>
-		xnXguHT9RtZo1XAvhk1idvB9f7s=
+		BnUdNN0sZ9v+j0zfxkgBUhPRyy4=
 		</data>
-		<key>BSImagePicker.bundle/PhotoCell.nib</key>
+		<key>BSImagePicker.bundle/PhotoCell.nib/objects-12.3+.nib</key>
 		<data>
-		xnIpnX9GqFACXQZCaEoHOkcPJyk=
+		0d6hfhNOYHyn2R0KQsYmpwXgsOw=
+		</data>
+		<key>BSImagePicker.bundle/PhotoCell.nib/objects-13.0+.nib</key>
+		<data>
+		cLN82T3/wdx0b47Vq7MY/Cz3VdY=
+		</data>
+		<key>BSImagePicker.bundle/PhotoCell.nib/runtime.nib</key>
+		<data>
+		ftwdOaRvClyy6f1SvPBBETH3mnU=
 		</data>
 		<key>BSImagePicker.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		xnROh0pfnJTbxtsypbL9zR7zZnM=
+		+3j9UXmy3Cwll4K2bPiNJmZxYNI=
 		</data>
 		<key>BSImagePicker.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -38,11 +62,11 @@
 		</data>
 		<key>BSImagePicker.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		DHPK609sag/sj+XMofodzDwIqYg=
+		lz3Ic+q9R7nKqDEebWgXdixXm6c=
 		</data>
 		<key>BSImagePicker.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		Khcslf2I1ASyX/d/eKCEuqAka0U=
+		HupTbQcAytXmjyqNcX0zxreulwQ=
 		</data>
 		<key>BSImagePicker.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -74,7 +98,7 @@
 		</data>
 		<key>Headers/BSImagePicker-Swift.h</key>
 		<data>
-		ADv8pWZSr+vH7VbdbFcKXjv6EH0=
+		YOxvYFb0ywJerqRyeGWXMgzUIGs=
 		</data>
 		<key>Headers/BSImagePicker-umbrella.h</key>
 		<data>
@@ -82,15 +106,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eeMSrq2YWFA7ZGP5Dc/BuAQXgr0=
+		c5F/5oMrdX1iDhyjCembpaWCGpg=
 		</data>
 		<key>Modules/BSImagePicker.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		WH0fXHvUgkTC7BwpaeenPnmZMR0=
+		wivxWw6sx3EoXp0+rPlQlezQttA=
 		</data>
 		<key>Modules/BSImagePicker.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		m0HTSIIlY56226terxG0izQTZic=
+		8MwdU1To+KuhS41wx6yES7Htqrw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -110,70 +134,136 @@
 			ti2rAhKrAvw7H5THyRdTeQRvlJJ+KRLAkkgq7w1FdDg=
 			</data>
 		</dict>
-		<key>BSImagePicker.bundle/Albums.storyboardc/Q9l-ou-0o0-view-6nu-Xx-FSD.nib</key>
+		<key>BSImagePicker.bundle/Albums.storyboardc/Q9l-ou-0o0-view-6nu-Xx-FSD.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NRJpgg33BM14rTLNQgCGZ2hX+b8=
+			+0BARQ1n3294YKkzF6a9d3CdLUg=
 			</data>
 			<key>hash2</key>
 			<data>
-			0AjzH3gfBUh+V70i9ov+sl0XAiA5zajbjnQ4XQs2reQ=
+			ZdLkg5c4lf2bzn1pkHfkANoO4j0wXJLBNdwDtNz5Ro8=
 			</data>
 		</dict>
-		<key>BSImagePicker.bundle/Albums.storyboardc/UITableViewController-Q9l-ou-0o0.nib</key>
+		<key>BSImagePicker.bundle/Albums.storyboardc/Q9l-ou-0o0-view-6nu-Xx-FSD.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m75w7mGef3VZ6/QhjJrEpW07DrE=
+			LviyA+uHPVwLxkda1BXoL9byX+k=
 			</data>
 			<key>hash2</key>
 			<data>
-			/TMlCsotWiYyTsmXN7q4DiUecKEwTOTy1VaHPxBnD3M=
+			jmmOOcljGpQ6DvNQ0jtSy6qjJW74nhk7gySZocdedF4=
 			</data>
 		</dict>
-		<key>BSImagePicker.bundle/CameraCell.nib</key>
+		<key>BSImagePicker.bundle/Albums.storyboardc/UITableViewController-Q9l-ou-0o0.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hYMeHY9UerArCjYDJC8zgeeAfCo=
+			Gu7V1A+en1AthyHkD3JZoJw02xA=
 			</data>
 			<key>hash2</key>
 			<data>
-			YK9g61oF9vyINPuQKjOv6vZThUin/3RtBO3mHBjBwEs=
+			0MHHq/4DddRGsYMacU/jy3itE4A3OWD3aPO/GzSDSxI=
+			</data>
+		</dict>
+		<key>BSImagePicker.bundle/Albums.storyboardc/UITableViewController-Q9l-ou-0o0.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/eAMMqQnClOf6iq7oiK1NY4jWMo=
+			</data>
+			<key>hash2</key>
+			<data>
+			JgTH66RKzYvOYukZAHmzJeM7vEtRP6OR2Zbze9Jn4Pc=
+			</data>
+		</dict>
+		<key>BSImagePicker.bundle/CameraCell.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0qXEeg9Tbi/eBa7U2F+i3DxDQ70=
+			</data>
+			<key>hash2</key>
+			<data>
+			qlAbKq8bBTe/uXt97aGf2Gn0A0KdVjXavIks6v3QPcY=
+			</data>
+		</dict>
+		<key>BSImagePicker.bundle/CameraCell.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			465ZRXVVL1LrYgqQm74k/x0Uo/E=
+			</data>
+			<key>hash2</key>
+			<data>
+			BwCRygFhzlWXzgT1P0oSvtp5HpmxGYpZeba4r9Fla/g=
+			</data>
+		</dict>
+		<key>BSImagePicker.bundle/CameraCell.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			g1oVoVu0kPIH5v1WHe94fEIE+BE=
+			</data>
+			<key>hash2</key>
+			<data>
+			JyOVL8K1Cm49hq9/c9kLZtg7iTLXojEo5QXGZtCqPCk=
 			</data>
 		</dict>
 		<key>BSImagePicker.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xnXguHT9RtZo1XAvhk1idvB9f7s=
+			BnUdNN0sZ9v+j0zfxkgBUhPRyy4=
 			</data>
 			<key>hash2</key>
 			<data>
-			RW6TUlkTgqxo3lWJVHIRFSezDgEjPqZwZKWe1T/D/S0=
+			/i7x5OF8b7czKm726uM+xOz4EYbSk6rCeXPJfC+mMQo=
 			</data>
 		</dict>
-		<key>BSImagePicker.bundle/PhotoCell.nib</key>
+		<key>BSImagePicker.bundle/PhotoCell.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xnIpnX9GqFACXQZCaEoHOkcPJyk=
+			0d6hfhNOYHyn2R0KQsYmpwXgsOw=
 			</data>
 			<key>hash2</key>
 			<data>
-			wKNAxczH6HWdaE8Za15b+k3CGlfGFWiUbS5CYuFv2xM=
+			EcRiplMZcpSoMkFs4JCXzGFwtrYXaLiI20f+7l0Jz/M=
+			</data>
+		</dict>
+		<key>BSImagePicker.bundle/PhotoCell.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cLN82T3/wdx0b47Vq7MY/Cz3VdY=
+			</data>
+			<key>hash2</key>
+			<data>
+			EKPqUIPFu62W9JPxIgewLzxNKPx91tSp4Dx6Qei0GkQ=
+			</data>
+		</dict>
+		<key>BSImagePicker.bundle/PhotoCell.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ftwdOaRvClyy6f1SvPBBETH3mnU=
+			</data>
+			<key>hash2</key>
+			<data>
+			kFc4wOZuJrNXy0wG28k4nvq0bWTkSONaPbbNQc4kr+0=
 			</data>
 		</dict>
 		<key>BSImagePicker.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xnROh0pfnJTbxtsypbL9zR7zZnM=
+			+3j9UXmy3Cwll4K2bPiNJmZxYNI=
 			</data>
 			<key>hash2</key>
 			<data>
-			8DiuUF8L2TzyXYCc1GqFF3BAwpa8wVE0wl6JLuotVHQ=
+			ii6hxIVcXJDBP5aKs2m/ZBrqAJ4bOjqfxN+VHYP0ZVM=
 			</data>
 		</dict>
 		<key>BSImagePicker.bundle/_CodeSignature/CodeRequirements</key>
@@ -191,22 +281,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DHPK609sag/sj+XMofodzDwIqYg=
+			lz3Ic+q9R7nKqDEebWgXdixXm6c=
 			</data>
 			<key>hash2</key>
 			<data>
-			f7Wd6PSm5wut2rfF4/yYsuh4A2ah5It6Pi/rbMmFVUM=
+			q1kE2ZjEXi95WpuMcUzryInpmayFLP1MX+FFMXuhxiU=
 			</data>
 		</dict>
 		<key>BSImagePicker.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Khcslf2I1ASyX/d/eKCEuqAka0U=
+			HupTbQcAytXmjyqNcX0zxreulwQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			D20T/0SVGgigFVfujuDm/EUXLeVfd2OBHJRoNsObTuk=
+			T2ZCMc1ihdIKz5FfYTX0lZ9GIReEW0wbKfNhUYuAeuU=
 			</data>
 		</dict>
 		<key>BSImagePicker.bundle/_CodeSignature/CodeSignature</key>
@@ -290,11 +380,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ADv8pWZSr+vH7VbdbFcKXjv6EH0=
+			YOxvYFb0ywJerqRyeGWXMgzUIGs=
 			</data>
 			<key>hash2</key>
 			<data>
-			F8wlKGLEbanP5Pu5FeItVMu3JF6kbAtuhGew4R+pBTU=
+			dFrX+DKpJhDVQyfW8lKPGLp+DOL8TLpvtuvG8y4w9Kc=
 			</data>
 		</dict>
 		<key>Headers/BSImagePicker-umbrella.h</key>
@@ -312,22 +402,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WH0fXHvUgkTC7BwpaeenPnmZMR0=
+			wivxWw6sx3EoXp0+rPlQlezQttA=
 			</data>
 			<key>hash2</key>
 			<data>
-			wP51l7ncjWVbPsZ1MF99tFR9CW0lpw6ySI+mdR+IzMk=
+			xtStqbTBjTW1Vmt9hGVlRCyVnlwr/NkWgQ1mLFaFM3U=
 			</data>
 		</dict>
 		<key>Modules/BSImagePicker.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m0HTSIIlY56226terxG0izQTZic=
+			8MwdU1To+KuhS41wx6yES7Htqrw=
 			</data>
 			<key>hash2</key>
 			<data>
-			O+8qGYEvy0PD/5WcbsiEZwU8p++L04XfbV+7KqqQAtA=
+			qFUI7m+d5f1XplZCpuuU24a6VRQ2LIyxpia9PlClc+8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

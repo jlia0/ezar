@@ -4,24 +4,7 @@
             "outputFile": "/Users/kelvinlew/ezar/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/16d2c10520f73475d2fad8a3f152b204/res/values-pt-rBR/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "203",
-                        "endOffsets": "454"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4014",
-                        "endColumns": "203",
-                        "endOffsets": "4213"
-                    }
-                },
-                {
-                    "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/6fceaae8929f78e0cdbf5d349dda736e/res/values-pt-rBR/values.xml",
+                    "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/5c169cc7c615ff941d551c4ff0aa91b0/res/values-pt-rBR/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -35,6 +18,23 @@
                         "startOffsets": "2844,2951,3131,3260,3370,3596,3728,3880,4218,4447,4557,4752,4884,5100,5287,5386,5482",
                         "endColumns": "106,179,128,109,225,131,151,133,228,109,194,131,215,186,98,95,112",
                         "endOffsets": "2946,3126,3255,3365,3591,3723,3875,4009,4442,4552,4747,4879,5095,5282,5381,5477,5590"
+                    }
+                },
+                {
+                    "source": "/Users/kelvinlew/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/9df9f6e09e69107a987f52baf0cca70c/res/values-pt-rBR/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "203",
+                        "endOffsets": "454"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4014",
+                        "endColumns": "203",
+                        "endOffsets": "4213"
                     }
                 },
                 {

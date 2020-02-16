@@ -998,9 +998,11 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable drawable_detail_gradient
 drawable ic_add_a_photo_gray_100dp
 drawable ic_add_a_photo_white_24dp
 drawable ic_arrow_back_white_24dp
+drawable ic_done_all_white_24dp
 drawable ic_done_white_24dp
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -1024,6 +1026,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+id action_all_done
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1034,13 +1037,13 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
+id action_done
 id action_image
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
-id action_ok
 id action_text
 id actions
 id activity_chooser_view_content
@@ -1048,7 +1051,6 @@ id add
 id alertTitle
 id async
 id auto
-id barrier
 id blocking
 id bottom
 id btn_detail_back
@@ -1056,7 +1058,6 @@ id btn_detail_count
 id btn_thumb_count
 id buttonPanel
 id center
-id chains
 id checkbox
 id chronometer
 id container
@@ -1072,8 +1073,6 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
-id dimensions
-id direct
 id edit_query
 id end
 id expand_activities_button
@@ -1166,7 +1165,6 @@ id spread_inside
 id src_atop
 id src_in
 id src_over
-id standard
 id start
 id stretch
 id submenuarrow
@@ -1335,6 +1333,7 @@ string camera
 string character_counter_content_description
 string character_counter_pattern
 string done
+string done_all
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior

@@ -71,8 +71,8 @@
         </activity>
 
         <provider
-            android:name="androidx.core.content.FileProvider"
-            android:authorities="com.uofc.cpsc.ezar.provider"
+            android:name="com.sangcomz.fishbun.FishBunFileProvider"
+            android:authorities="com.uofc.cpsc.ezar.fishbunfileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data

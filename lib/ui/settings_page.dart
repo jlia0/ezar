@@ -178,10 +178,10 @@ class SettingsPageState extends State<SettingsPage>
                   (route) => route == null);
             }),
             _buildCard("Upload Ads", onTTap: () {
-              Navigator.push(context,
-                  new MaterialPageRoute(builder: (BuildContext context) {
-                return new UploadPics();
-              }));
+//              Navigator.push(context,
+//                  new MaterialPageRoute(builder: (BuildContext context) {
+//                return new UploadPics();
+//              }));
             }),
           ],
         ),
