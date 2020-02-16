@@ -26,5 +26,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "static_framework": true
+  "static_framework": true,
+  "prepare_command": "echo // Generated file, do not edit > Classes/UserAgent.h\necho \"#define LIBRARY_VERSION @\\\"0.4.4\\\"\" >> Classes/UserAgent.h\necho \"#define LIBRARY_NAME @\\\"flutter-fire-core\\\"\" >> Classes/UserAgent.h"
 }

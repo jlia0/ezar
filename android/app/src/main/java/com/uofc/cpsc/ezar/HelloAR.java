@@ -34,6 +34,7 @@ import cn.easyar.StorageType;
 import cn.easyar.Target;
 import cn.easyar.TargetInstance;
 import cn.easyar.TargetStatus;
+import cn.easyar.Vec2F;
 import cn.easyar.Vec2I;
 import cn.easyar.Vec4I;
 
@@ -190,6 +191,8 @@ public class HelloAR {
                 + "  ]\n"
                 + "}";
         target.setup(jstr, StorageType.Absolute | StorageType.Json, "");
+
+
         tracker.loadTarget(target, new FunctorOfVoidFromPointerOfTargetAndBool() {
             @Override
             public void invoke(Target target, boolean status) {

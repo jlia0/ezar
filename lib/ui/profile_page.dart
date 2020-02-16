@@ -8,11 +8,15 @@ import 'package:ezar/ui/upload_pics_page.dart';
 import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:transparent_image/transparent_image.dart';
 import 'package:dio/dio.dart';
 import 'package:http/http.dart' as http;
-import 'package:flutter_fai_webview/flutter_fai_webview.dart';
+import 'package:webview_flutter/webview_flutter.dart';
+import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
+
+
 
 
 class ProfilePage extends StatefulWidget {
@@ -31,6 +35,9 @@ class ProfilePageState extends State<ProfilePage>
     with AutomaticKeepAliveClientMixin, SingleTickerProviderStateMixin {
   String _fullName;
   String _profilelink;
+
+
+
 
   loadData() async {
     print(widget.user_id);
@@ -64,7 +71,9 @@ class ProfilePageState extends State<ProfilePage>
     }
 
     super.initState();
+
   }
+
 
   @override
   // TODO: implement wantKeepAlive
@@ -338,11 +347,16 @@ class ProfilePageState extends State<ProfilePage>
 //    );
 //  }
 
+
+  bool check = true;
+  final flutterWebviewPlugin = new FlutterWebviewPlugin();
+
   @override
   Widget build(BuildContext context) {
     Size screenSize = MediaQuery.of(context).size;
     double aHeight;
     aHeight = MediaQuery.of(context).padding.top;
+
 
     if (aHeight == 44) {
       aHeight = 10;
@@ -379,12 +393,38 @@ class ProfilePageState extends State<ProfilePage>
             new Expanded(
               child: new TabBarView(
                 children: <Widget>[
-                  new PicSwiper(),
                   new Column(
                     children: <Widget>[
-                      new FloatingActionButton(onPressed: () {
-                         
-                      }),
+                      new PicSwiper(),
+                      SizedBox(height: check ? screenSize.height * 0.1 : screenSize.height * 0.18,),
+                      new RaisedButton(
+                        child: check ? Text("Open Room Finder") : Text("Close Room Finder"),
+                        onPressed: () {
+
+                          if (check == true){
+                            flutterWebviewPlugin.launch(
+                              "https://ucmapspro.ucalgary.ca/RoomFinder/",
+                              rect: Rect.fromLTWH(
+                                  0.0, 0.0, MediaQuery.of(context).size.width, screenSize.height * 0.75),
+                            );
+                            check = false;
+                          }else{
+                            flutterWebviewPlugin.close();
+                            check = true;
+                          }
+
+                          setState(() {
+
+                          });
+                        },
+                      ),
+
+
+                    ],
+                  ),
+                  new Column(
+                    children: <Widget>[
+
                     ],
                   ),
                 ],
@@ -395,4 +435,7 @@ class ProfilePageState extends State<ProfilePage>
       ),
     );
   }
+
+
+
 }

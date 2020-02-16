@@ -76,7 +76,7 @@ class _PicSwiperState extends State<PicSwiper>
       bool exist = await imageFile.exists();
       if (exist == false) {
         await Dio().download(image['pic_link'], path);
-        ImagePath.add(path);
+        ImagePath.add(image['pic_link']);
         var imageJSON = new ImageJSON(
             IDPicsName: image['pic_id'].toString(),
             IDPicsPath: path,
@@ -84,7 +84,7 @@ class _PicSwiperState extends State<PicSwiper>
         JSON.add(imageJSON);
 
       } else {
-        ImagePath.add(path);
+        ImagePath.add(image['pic_link']);
         var imageJSON = new ImageJSON(
             IDPicsName: image['pic_id'].toString(),
             IDPicsPath: path,
@@ -140,17 +140,17 @@ class _PicSwiperState extends State<PicSwiper>
   Widget _buildItem(BuildContext context, int index) {
     return ClipRRect(
       borderRadius: new BorderRadius.all(new Radius.circular(_radius)),
-//        child: new CachedNetworkImage(
-//          imageUrl: Ads[0],
-//          //imageUrl: "http://salvidatech.com/IDPics/forests.jpg",
-//          placeholder: (context, url) => new CircularProgressIndicator(),
-//          errorWidget: (context, url, error) => new Icon(Icons.error),
-//          fit: BoxFit.fill,
-//        )
-      child: new Image.asset(
-        Ads[index],
-        fit: BoxFit.fill,
-      ),
+        child: new CachedNetworkImage(
+          imageUrl: Ads[index],
+          //imageUrl: "http://salvidatech.com/IDPics/forests.jpg",
+          placeholder: (context, url) => new CircularProgressIndicator(),
+          errorWidget: (context, url, error) => new Icon(Icons.error),
+          fit: BoxFit.fill,
+        )
+//      child: new Image.asset(
+//        Ads[index],
+//        fit: BoxFit.fill,
+//      ),
     );
   }
 

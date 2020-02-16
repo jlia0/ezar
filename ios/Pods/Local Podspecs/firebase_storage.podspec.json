@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "summary": "Firebase Storage plugin for Flutter.",
   "description": "Firebase Storage plugin for Flutter.",
-  "homepage": "https://github.com/flutter/plugins/tree/master/packages/firebase_storage",
+  "homepage": "https://github.com/FirebaseExtended/flutterfire/tree/master/packages/firebase_storage",
   "license": {
     "file": "../LICENSE"
   },
@@ -26,5 +26,6 @@
 
     ]
   },
-  "static_framework": true
+  "static_framework": true,
+  "prepare_command": "echo // Generated file, do not edit > Classes/UserAgent.h\necho \"#define LIBRARY_VERSION @\\\"3.1.1\\\"\" >> Classes/UserAgent.h\necho \"#define LIBRARY_NAME @\\\"flutter-fire-gcs\\\"\" >> Classes/UserAgent.h"
 }

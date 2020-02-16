@@ -64,9 +64,9 @@ class HistoryPageState extends State<HistoryPage>
             ),
 
             new ListTile(
-              title: new Text('Bio Steel',
+              title: new Text('Kobe Beef',
                   style: new TextStyle(fontWeight: FontWeight.w500)),
-              subtitle: new Text('January 20,2019'),
+              subtitle: new Text('February 16, 2020'),
               leading: new Icon(
                 Icons.people,
                 color: Colors.blue[500],
@@ -81,15 +81,15 @@ class HistoryPageState extends State<HistoryPage>
                   style: new TextStyle(fontWeight: FontWeight.w300)),
             ),
             new ListTile(
-              title: new Text('Pepsi'),
-              subtitle: new Text('January 19,2019'),
+              title: new Text('Tim Hortons'),
+              subtitle: new Text('February 15, 2020'),
               leading: new Icon(
                 Icons.local_drink,
                 color: Colors.blue[500],
               ),
             ), new ListTile(
-              title: new Text('Village Ice Cream'),
-              subtitle: new Text('January 19,2019'),
+              title: new Text('Bake Chef'),
+              subtitle: new Text('February 15, 2020'),
               leading: new Icon(
                 Icons.fastfood,
                 color: Colors.blue[500],

@@ -102,7 +102,7 @@ class _MainPageState extends State<MainPage>
         items: [
           FABBottomAppBarItem(iconData: Icons.person_outline, text: 'Profile'),
           FABBottomAppBarItem(
-              iconData: Icons.account_balance_wallet, text: 'Wallet'),
+              iconData: Icons.account_balance_wallet, text: 'Deals'),
           FABBottomAppBarItem(iconData: Icons.history, text: 'History'),
           FABBottomAppBarItem(iconData: Icons.settings, text: 'Settings'),
         ],

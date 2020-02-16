@@ -63,7 +63,8 @@ public class ARVideo
         this.path = url;
         player.setRenderTexture(texid);
         player.setVideoType(VideoType.Normal);
-        player.open(url, StorageType.Absolute, new FunctorOfVoidFromVideoStatus() {
+
+        player.open(url,StorageType.Absolute, new FunctorOfVoidFromVideoStatus() {
             @Override
             public void invoke(int status) {
                 setVideoStatus(status);

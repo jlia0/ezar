@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ezar/style/theme.dart' as MTheme;
+import 'package:cached_network_image/cached_network_image.dart';
+
 
 class WalletPage extends StatefulWidget {
   @override
@@ -32,7 +34,44 @@ class WalletPageState extends State<WalletPage>
     );
   }
 
-  Widget _buildCard() {
+  void showQRCode(BuildContext context) {
+    showDialog(
+        context: context,
+        builder: (context) {
+          return new SimpleDialog(
+            title: new Text("Scan QR Code"),
+            children: <Widget>[
+              CachedNetworkImage(
+                imageUrl:"https://firebasestorage.googleapis.com/v0/b/ez-ar-47896.appspot.com/o/IDPics%2FQR.png?alt=media&token=04a0f65f-edd7-4175-a582-e72f8fdaa63d",
+                placeholder: (context, url) => new CircularProgressIndicator(),
+                errorWidget: (context, url, error) => new Icon(Icons.error),
+                fit: BoxFit.fill,
+              )
+            ],
+          );
+        });
+  }
+
+  void showBarCode(BuildContext context) {
+    showDialog(
+        context: context,
+        builder: (context) {
+          return new SimpleDialog(
+            title: new Text("Scan Bar Code"),
+            children: <Widget>[
+              CachedNetworkImage(
+                imageUrl:"https://firebasestorage.googleapis.com/v0/b/ez-ar-47896.appspot.com/o/IDPics%2Fbarcode.png?alt=media&token=0a6ef443-0dab-4838-8419-0e0688bf14de",
+                placeholder: (context, url) => new CircularProgressIndicator(),
+                errorWidget: (context, url, error) => new Icon(Icons.error),
+                fit: BoxFit.fill,
+              )
+            ],
+          );
+        });
+  }
+
+
+  Widget _buildCard(BuildContext context) {
     return new SizedBox(
       height: MediaQuery.of(context).size.height - 200, //设置高度
       child: new Card(
@@ -51,22 +90,28 @@ class WalletPageState extends State<WalletPage>
               ),
             ),
             new ListTile(
-              title: new Text('Pepsi',
+              title: new Text('Tim Hortons',
                   style: new TextStyle(fontWeight: FontWeight.w500)),
               subtitle: new Text('Gift Card'),
               leading: new Icon(
                 Icons.local_drink,
                 color: Colors.blue[500],
               ),
+              onTap: (){
+                showBarCode(context);
+              },
             ),
             new ListTile(
-              title: new Text('Village Ice Cream',
+              title: new Text('Star Bucks',
                   style: new TextStyle(fontWeight: FontWeight.w500)),
               subtitle: new Text('Gift Card'),
               leading: new Icon(
-                Icons.fastfood,
+                Icons.local_drink,
                 color: Colors.blue[500],
               ),
+              onTap: (){
+                showBarCode(context);
+              },
             ),
             new Divider(),
             new Divider(),
@@ -74,33 +119,31 @@ class WalletPageState extends State<WalletPage>
               title: new Text('Coupons',
                   style: new TextStyle(fontWeight: FontWeight.w300)),
               leading: new Icon(
-                Icons.card_travel,
+                Icons.fastfood,
                 color: Colors.blue[500],
               ),
             ),
             new ListTile(
-              title: new Text('Qinma Hot Pot'),
+              title: new Text('Bake Chef'),
               subtitle: new Text('30% OFF'),
               leading: new Icon(
                 Icons.restaurant,
                 color: Colors.blue[500],
               ),
+              onTap: (){
+                showQRCode(context);
+              },
             ),
             new ListTile(
-              title: new Text('Dairy Queen'),
-              subtitle: new Text('50% OFF'),
+              title: new Text('Kobe Beef'),
+              subtitle: new Text('30% OFF'),
               leading: new Icon(
                 Icons.restaurant,
                 color: Colors.blue[500],
               ),
-            ),
-            new ListTile(
-              title: new Text('Chinook Cineplex'),
-              subtitle: new Text('One Free Ticket'),
-              leading: new Icon(
-                Icons.tab,
-                color: Colors.blue[500],
-              ),
+              onTap: (){
+                showQRCode(context);
+              },
             ),
           ],
         ),
@@ -117,7 +160,7 @@ class WalletPageState extends State<WalletPage>
     );
 
     return Text(
-      'Wallet Page',
+      'Deals Page',
       style: _nameTextStyle,
     );
   }
@@ -158,7 +201,7 @@ class WalletPageState extends State<WalletPage>
               ),
             ],
           ),
-          _buildCard(),
+          _buildCard(context),
         ],
       ),
     );
