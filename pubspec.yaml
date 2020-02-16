@@ -25,16 +25,20 @@ dependencies:
   cupertino_icons: ^0.1.3
   font_awesome_flutter: ^8.5.0
   flutter_swiper: ^1.1.6
-  firebase_core: ^0.3.4  # add dependency for Firebase Core/ THIS IS A WEIRD BUG (WAITING FOR OFFICIAL UPDATE)
-  dio: 2.1.2
-  firebase_storage: ^2.1.0+1
+  firebase_core: ^0.4.4
+  dio: ^3.0.8
+  firebase_storage: ^3.1.1
   cached_network_image: ^2.0.0
   multi_image_picker: ^4.6.1
-  path_provider: ^0.5.0+1
-  path: ^1.6.2
-  flutter_image_compress: ^0.3.1
+  path_provider: ^1.6.0
+  path: ^1.6.4
+  flutter_image_compress: ^0.6.5+1
   transparent_image: ^0.1.0
-  http: ^0.12.0+2
+  http: ^0.12.0+4
+  flutter_fai_webview:
+    git:
+      url: https://github.com/zhaolongs/Flutter_Fai_Webview.git
+      ref: master
 
 dev_dependencies:
   flutter_test:

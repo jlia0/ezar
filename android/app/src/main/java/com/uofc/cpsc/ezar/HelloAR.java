@@ -126,7 +126,7 @@ public class HelloAR {
                     Log.e("Path", path);
                     Log.e("Link", link);
 
-                    videoMap.putVideo(picname, new Video(link, VideoType.TYPE_HTTP));
+                    videoMap.putVideo(picname, new Video(link, 1));
                     nvideo.add(picname);
                     loadFromImage(tracker, path, picname);
 

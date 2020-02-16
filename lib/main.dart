@@ -15,13 +15,13 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
 
-  loadIDPics() async{
-    Directory _directory = await getApplicationDocumentsDirectory();
-    Directory _d = await getTemporaryDirectory();
-
-    print(_directory);
-    print(_d);
-}
+//  loadIDPics() async{
+//    Directory _directory = await getApplicationDocumentsDirectory();
+//    Directory _d = await getTemporaryDirectory();
+//
+//    print(_directory);
+//    print(_d);
+//}
 
   @override
   Widget build(BuildContext context) {

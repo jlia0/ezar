@@ -141,7 +141,7 @@ class _PicSwiperState extends State<PicSwiper>
     return ClipRRect(
       borderRadius: new BorderRadius.all(new Radius.circular(_radius)),
 //        child: new CachedNetworkImage(
-//          imageUrl: Ads[index]['pic_link'],
+//          imageUrl: Ads[0],
 //          //imageUrl: "http://salvidatech.com/IDPics/forests.jpg",
 //          placeholder: (context, url) => new CircularProgressIndicator(),
 //          errorWidget: (context, url, error) => new Icon(Icons.error),
@@ -174,13 +174,13 @@ class _PicSwiperState extends State<PicSwiper>
 //          );
 //        }));
 //      },
-      onTap: (int index) {
-        Navigator.push(context,
-            new MaterialPageRoute(builder: (BuildContext context) {
-          print(json.encode(Ads[index]).toString());
-          return new ProductDetails(ads: json.encode(Ads[index]).toString());
-        }));
-      },
+//      onTap: (int index) {
+//        Navigator.push(context,
+//            new MaterialPageRoute(builder: (BuildContext context) {
+//          print(json.encode(Ads[index]).toString());
+//          return new ProductDetails(ads: json.encode(Ads[index]).toString());
+//        }));
+//      },
       customLayoutOption: customLayoutOption,
       fade: _fade,
       index: _currentIndex,

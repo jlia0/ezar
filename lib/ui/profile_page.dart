@@ -12,6 +12,8 @@ import 'package:path_provider/path_provider.dart';
 import 'package:transparent_image/transparent_image.dart';
 import 'package:dio/dio.dart';
 import 'package:http/http.dart' as http;
+import 'package:flutter_fai_webview/flutter_fai_webview.dart';
+
 
 class ProfilePage extends StatefulWidget {
   String user_id;
@@ -381,7 +383,7 @@ class ProfilePageState extends State<ProfilePage>
                   new Column(
                     children: <Widget>[
                       new FloatingActionButton(onPressed: () {
-
+                         
                       }),
                     ],
                   ),
